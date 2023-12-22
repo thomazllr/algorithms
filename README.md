@@ -13,7 +13,8 @@
 
 # Books
 
-##[Estruturas de Dados usando C - Tenenbaum](https://www.amazon.com.br/Estruturas-dados-usando-Aaron-Tenenbaum/dp/8534603480)
+## [Estruturas de Dados usando C - Tenenbaum](https://www.amazon.com.br/Estruturas-dados-usando-Aaron-Tenenbaum/dp/8534603480)
   - [ ] Loading...
 
-##[Entendendo Algoritmos](https://www.amazon.com.br/Estruturas-dados-usando-Aaron-Tenenbaum/dp/8534603480)
+## [Entendendo Algoritmos](https://www.amazon.com.br/Estruturas-dados-usando-Aaron-Tenenbaum/dp/8534603480)
+ - [ ] Loading...
