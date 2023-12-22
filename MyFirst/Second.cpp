@@ -6,7 +6,6 @@ int main()
 {
     int idade;
 
-
     cout << "Digite tua idade: ";
     cin >> idade;
 
@@ -16,10 +15,11 @@ int main()
     else {
         cout << "Voce eh menor de idade" << endl;
     }
-    
+
     cout << "Sua idade eh: " << idade;
 
 
+    return 0;
 
 
 }
