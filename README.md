@@ -1,18 +1,19 @@
 # Algorithms &amp; Data Structures
 
-## Fundamental Algorithms
-  - [ ] Big O 
-  - [ ] Pointers & Classes 
-  - [ ] Basic Sorts 
-  - [ ] Merge Sort
-  - [ ] Quick Sort
+## Courses
 
-## Fundamental Data Structures
-  - [ ] Trees
-  - [ ] Stacks & Queues
-  - [ ] Linked Lists
-  - [ ] Hash Tables
-  - [ ] Doubly Linked Lists
-  - [ ] Graphs
-  - [ ] Recursion
-  - [ ] Tree Transversal
+## [Mastering Data Structures & Algorithms using C and C++](https://www.udemy.com/course/datastructurescncpp/)
+  - [ ] Loading...
+
+## [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/)
+  - [ ] Loading...
+
+## [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
+  - [ ] Loading...
+
+# Books
+
+##[Estruturas de Dados usando C - Tenenbaum](https://www.amazon.com.br/Estruturas-dados-usando-Aaron-Tenenbaum/dp/8534603480)
+  - [ ] Loading...
+
+##[Entendendo Algoritmos](https://www.amazon.com.br/Estruturas-dados-usando-Aaron-Tenenbaum/dp/8534603480)
