@@ -18,3 +18,6 @@
 
 ## [Entendendo Algoritmos](https://www.amazon.com.br/Estruturas-dados-usando-Aaron-Tenenbaum/dp/8534603480)
  - [ ] Loading...
+
+## [Mastering Algorithms with C](https://www.amazon.com/Mastering-Algorithms-Techniques-Sorting-Encryption/dp/1565924533)
+- [ ] Loading...
