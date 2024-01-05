@@ -7,13 +7,7 @@
 
 # Books
 
-## [Algorithms in C - Robert Sedgewick](https://a.co/d/32DVUm7)
-  - [ ] Loading...
-  
-## [Mastering Algorithms with C](https://a.co/d/96Bu53q)
-  - [ ] Loading...
-
-## [Effective C: An Introduction to Professional C Programming](https://a.co/d/iAjaGZB)
+## [Estrutura de Dados usando C](https://a.co/d/iq2kV49)
   - [ ] Loading...
 
 
