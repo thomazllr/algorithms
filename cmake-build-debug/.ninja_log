@@ -1,0 +1,12 @@
+# ninja log v6
+4	107	7395185138239579	CMakeFiles/algorithms.dir/main.c.obj	243bac540ad7f4be
+108	240	7395185139279581	algorithms.exe	d1852d0fdea8700a
+14	104	7395187230199429	CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj	9a586a6754c36ceb
+4	127	7395187004383561	CMakeFiles/LinkedList.dir/LinkedList/main.c.obj	f42e9ad42b177ea2
+105	227	7395187231110087	LinkedList.exe	c569630693b10476
+11	103	7395198082930383	CMakeFiles/LinkedList.dir/LinkedList/main.c.obj	f42e9ad42b177ea2
+104	214	7395198083851082	LinkedList.exe	c569630693b10476
+12	163	7395198138751985	CMakeFiles/Stack.dir/Stack/Stack.c.obj	2a542da19a976995
+2	180	7395198138651958	CMakeFiles/Stack.dir/Stack/main.c.obj	876979595236a868
+181	328	7395198140441957	Stack.exe	fc5d6d1066c04d5f
+5	208	7395201236012037	CMakeFiles/algorithms.dir/main.c.obj	243bac540ad7f4be
