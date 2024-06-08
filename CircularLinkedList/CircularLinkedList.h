@@ -1,0 +1,10 @@
+//
+// Created by thoma on 08/06/2024.
+//
+
+#ifndef ALGORITHMS_CIRCULARLINKEDLIST_H
+#define ALGORITHMS_CIRCULARLINKEDLIST_H
+
+void printar();
+
+#endif //ALGORITHMS_CIRCULARLINKEDLIST_H
