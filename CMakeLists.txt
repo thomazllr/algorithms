@@ -11,3 +11,8 @@ add_executable(LinkedList LinkedList/main.c LinkedList/LinkedList.c LinkedList/L
 add_executable(Stack Stack/main.c
         Stack/Stack.c
         Stack/Stack.h)
+
+add_executable(ToninhoTrocador LinkedList/ToninhoTrocador/main.c LinkedList/ToninhoTrocador/LinkedList.c LinkedList/ToninhoTrocador/LinkedList.h)
+add_executable(CircularLinkedList CircularLinkedList/main.c
+        CircularLinkedList/CircularLinkedList.c
+        CircularLinkedList/CircularLinkedList.h)

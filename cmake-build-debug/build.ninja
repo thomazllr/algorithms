@@ -151,6 +151,84 @@ build Stack.exe: C_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/Stack/mai
   TARGET_IMPLIB = libStack.dll.a
   TARGET_PDB = Stack.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ToninhoTrocador
+
+
+#############################################
+# Order-only phony target for ToninhoTrocador
+
+build cmake_object_order_depends_target_ToninhoTrocador: phony || CMakeFiles/ToninhoTrocador.dir
+
+build CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj: C_COMPILER__ToninhoTrocador_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/LinkedList/ToninhoTrocador/main.c || cmake_object_order_depends_target_ToninhoTrocador
+  DEP_FILE = CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\main.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ToninhoTrocador.dir
+  OBJECT_FILE_DIR = CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador
+
+build CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj: C_COMPILER__ToninhoTrocador_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/LinkedList/ToninhoTrocador/LinkedList.c || cmake_object_order_depends_target_ToninhoTrocador
+  DEP_FILE = CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\LinkedList.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ToninhoTrocador.dir
+  OBJECT_FILE_DIR = CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ToninhoTrocador
+
+
+#############################################
+# Link the executable ToninhoTrocador.exe
+
+build ToninhoTrocador.exe: C_EXECUTABLE_LINKER__ToninhoTrocador_Debug CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ToninhoTrocador.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ToninhoTrocador.exe
+  TARGET_IMPLIB = libToninhoTrocador.dll.a
+  TARGET_PDB = ToninhoTrocador.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CircularLinkedList
+
+
+#############################################
+# Order-only phony target for CircularLinkedList
+
+build cmake_object_order_depends_target_CircularLinkedList: phony || CMakeFiles/CircularLinkedList.dir
+
+build CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj: C_COMPILER__CircularLinkedList_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/CircularLinkedList/main.c || cmake_object_order_depends_target_CircularLinkedList
+  DEP_FILE = CMakeFiles\CircularLinkedList.dir\CircularLinkedList\main.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CircularLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularLinkedList.dir\CircularLinkedList
+
+build CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj: C_COMPILER__CircularLinkedList_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/CircularLinkedList/CircularLinkedList.c || cmake_object_order_depends_target_CircularLinkedList
+  DEP_FILE = CMakeFiles\CircularLinkedList.dir\CircularLinkedList\CircularLinkedList.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CircularLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircularLinkedList.dir\CircularLinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CircularLinkedList
+
+
+#############################################
+# Link the executable CircularLinkedList.exe
+
+build CircularLinkedList.exe: C_EXECUTABLE_LINKER__CircularLinkedList_Debug CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CircularLinkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CircularLinkedList.exe
+  TARGET_IMPLIB = libCircularLinkedList.dll.a
+  TARGET_PDB = CircularLinkedList.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -177,9 +255,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build CircularLinkedList: phony CircularLinkedList.exe
+
 build LinkedList: phony LinkedList.exe
 
 build Stack: phony Stack.exe
+
+build ToninhoTrocador: phony ToninhoTrocador.exe
 
 build algorithms: phony algorithms.exe
 
@@ -191,7 +273,7 @@ build algorithms: phony algorithms.exe
 #############################################
 # Folder: C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug
 
-build all: phony algorithms.exe LinkedList.exe Stack.exe
+build all: phony algorithms.exe LinkedList.exe Stack.exe ToninhoTrocador.exe CircularLinkedList.exe
 
 # =============================================================================
 # Built-in targets
