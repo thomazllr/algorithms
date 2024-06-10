@@ -229,6 +229,45 @@ build CircularLinkedList.exe: C_EXECUTABLE_LINKER__CircularLinkedList_Debug CMak
   TARGET_IMPLIB = libCircularLinkedList.dll.a
   TARGET_PDB = CircularLinkedList.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DoublyLinkedList
+
+
+#############################################
+# Order-only phony target for DoublyLinkedList
+
+build cmake_object_order_depends_target_DoublyLinkedList: phony || CMakeFiles/DoublyLinkedList.dir
+
+build CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/DoublyLinkedList/main.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\main.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList
+
+build CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj: C_COMPILER__DoublyLinkedList_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/DoublyLinkedList/DoublyLinkedList.c || cmake_object_order_depends_target_DoublyLinkedList
+  DEP_FILE = CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\DoublyLinkedList.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DoublyLinkedList
+
+
+#############################################
+# Link the executable DoublyLinkedList.exe
+
+build DoublyLinkedList.exe: C_EXECUTABLE_LINKER__DoublyLinkedList_Debug CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DoublyLinkedList.exe
+  TARGET_IMPLIB = libDoublyLinkedList.dll.a
+  TARGET_PDB = DoublyLinkedList.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -257,6 +296,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build CircularLinkedList: phony CircularLinkedList.exe
 
+build DoublyLinkedList: phony DoublyLinkedList.exe
+
 build LinkedList: phony LinkedList.exe
 
 build Stack: phony Stack.exe
@@ -273,7 +314,7 @@ build algorithms: phony algorithms.exe
 #############################################
 # Folder: C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug
 
-build all: phony algorithms.exe LinkedList.exe Stack.exe ToninhoTrocador.exe CircularLinkedList.exe
+build all: phony algorithms.exe LinkedList.exe Stack.exe ToninhoTrocador.exe CircularLinkedList.exe DoublyLinkedList.exe
 
 # =============================================================================
 # Built-in targets

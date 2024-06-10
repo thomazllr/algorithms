@@ -14,10 +14,12 @@ int main() {
 //    LinkedList_addFirst(L, 5);
 //    LinkedList_addFirst(L, 23);
 
-    LinkedList_addLast(L,4);
-    LinkedList_addLast(L,3);
-    LinkedList_addLast(L,2);
-    LinkedList_addLast(L,1);
+    LinkedList_addLastSlow(L,4);
+    LinkedList_addLastSlow(L,1);
+    LinkedList_addLastSlow(L,2);
+    LinkedList_addLastSlow(L,3);
+
+    LinkedList_remove(L, 3);
 
 
     LinkedList_print(L);

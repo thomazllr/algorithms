@@ -3,6 +3,7 @@
 //
 
 #include <stdlib.h>
+#include <stdbool.h>
 #include "LinkedList.h"
 #include "stdio.h"
 
@@ -70,6 +71,7 @@ LinkedList *Sequencia(LinkedList *L) {
     return new;
 
 }
+
 
 void LinkedList_addLastSlow(LinkedList *L, int id, float val, int id_prox) {
 

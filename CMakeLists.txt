@@ -16,3 +16,6 @@ add_executable(ToninhoTrocador LinkedList/ToninhoTrocador/main.c LinkedList/Toni
 add_executable(CircularLinkedList CircularLinkedList/main.c
         CircularLinkedList/CircularLinkedList.c
         CircularLinkedList/CircularLinkedList.h)
+add_executable(DoublyLinkedList DoublyLinkedList/main.c
+        DoublyLinkedList/DoublyLinkedList.c
+        DoublyLinkedList/DoublyLinkedList.h)

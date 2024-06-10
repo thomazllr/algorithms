@@ -76,6 +76,12 @@ void LinkedList_addLastFast(LinkedList *L, int val) {
 
 }
 
+bool LinkedList_IsEmpty(const LinkedList *L) {
+    return (L->begin == NULL && L-> end== NULL);
+}
+
+
+
 void LinkedList_print(const LinkedList *L) {
     Node *p = L->begin;
 
@@ -87,8 +93,48 @@ void LinkedList_print(const LinkedList *L) {
     }
     printf("NULL");
 
+    printf("\nValor final = %d\n", L->end->val);
+
 
 
 }
+
+void LinkedList_remove(LinkedList *L, int val) {
+    if (!LinkedList_IsEmpty(L)) {
+        if(L->begin->val == val) {
+            Node *pos = L->begin;
+            L->begin = L->begin->next;
+
+            if(L->end == pos) {
+                L->end = NULL;
+            }
+
+            free(pos);
+        }
+        else {
+            Node *pos = L->begin->next;
+            Node *prev = L->begin;
+
+            while(pos!= NULL && pos->val != val) {
+                prev = prev->next;
+                pos = pos->next;
+            }
+
+            if (pos != NULL) {
+                prev->next = pos->next;
+
+                if(pos->next == NULL) {
+                    L->end = prev;
+                }
+                free(pos);
+
+            }
+
+        }
+    }
+
+
+}
+
 
 
