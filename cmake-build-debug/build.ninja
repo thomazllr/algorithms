@@ -65,6 +65,7 @@ build CMakeFiles/algorithms.dir/main.c.obj: C_COMPILER__algorithms_unscanned_Deb
 
 build algorithms.exe: C_EXECUTABLE_LINKER__algorithms_Debug CMakeFiles/algorithms.dir/main.c.obj
   FLAGS = -g
+  LINK_FLAGS = -Wl,-subsystem,console
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\algorithms.dir
   POST_BUILD = cd .
@@ -104,6 +105,7 @@ build CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj: C_COMPILER__LinkedL
 
 build LinkedList.exe: C_EXECUTABLE_LINKER__LinkedList_Debug CMakeFiles/LinkedList.dir/LinkedList/main.c.obj CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj
   FLAGS = -g
+  LINK_FLAGS = -Wl,-subsystem,console
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LinkedList.dir
   POST_BUILD = cd .
@@ -143,6 +145,7 @@ build CMakeFiles/Stack.dir/Stack/Stack.c.obj: C_COMPILER__Stack_unscanned_Debug 
 
 build Stack.exe: C_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/Stack/main.c.obj CMakeFiles/Stack.dir/Stack/Stack.c.obj
   FLAGS = -g
+  LINK_FLAGS = -Wl,-subsystem,console
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Stack.dir
   POST_BUILD = cd .
@@ -182,6 +185,7 @@ build CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj
 
 build ToninhoTrocador.exe: C_EXECUTABLE_LINKER__ToninhoTrocador_Debug CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj
   FLAGS = -g
+  LINK_FLAGS = -Wl,-subsystem,console
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ToninhoTrocador.dir
   POST_BUILD = cd .
@@ -221,6 +225,7 @@ build CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.
 
 build CircularLinkedList.exe: C_EXECUTABLE_LINKER__CircularLinkedList_Debug CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj
   FLAGS = -g
+  LINK_FLAGS = -Wl,-subsystem,console
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CircularLinkedList.dir
   POST_BUILD = cd .
@@ -260,6 +265,7 @@ build CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj: C
 
 build DoublyLinkedList.exe: C_EXECUTABLE_LINKER__DoublyLinkedList_Debug CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj
   FLAGS = -g
+  LINK_FLAGS = -Wl,-subsystem,console
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DoublyLinkedList.dir
   POST_BUILD = cd .

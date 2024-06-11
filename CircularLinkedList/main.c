@@ -6,11 +6,11 @@
 #include <stdlib.h>
 #include "CircularLinkedList.h"
 
+
 int main() {
 
-    printf("aaaaaz\n");
-
-    printar();
     return 0;
 
 }
+
+

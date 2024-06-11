@@ -3,5 +3,6 @@ C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/LinkedList.
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/Stack.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/ToninhoTrocador.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/CircularLinkedList.dir
+C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/DoublyLinkedList.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir

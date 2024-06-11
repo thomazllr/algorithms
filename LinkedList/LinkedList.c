@@ -136,5 +136,29 @@ void LinkedList_remove(LinkedList *L, int val) {
 
 }
 
+void LinkedList_remove2(LinkedList *L, int val) {
+    if (!LinkedList_IsEmpty(L)) {
+        Node *prev = NULL;
+        Node *pos = L->begin;
 
+        while(pos != NULL && pos->val != val) {
+            prev = pos;
+            pos = pos->next;
+        }
 
+        if (pos != NULL) {
+
+            if (L->end == pos) {
+                L->end = prev;
+            }
+
+            if (L->begin == pos) {
+                L->begin = L->begin->next;
+            }
+            else {
+                prev->next = pos->next;
+            }
+            free(pos);
+        }
+    }
+}

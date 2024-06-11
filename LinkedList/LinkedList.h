@@ -14,6 +14,7 @@ void LinkedList_addFirst(LinkedList *L, int val);
 void LinkedList_print(const LinkedList *L);
 void LinkedList_addLastSlow(LinkedList *L, int val);
 void LinkedList_remove(LinkedList *L, int val);
+void LinkedList_remove2(LinkedList *L, int val);
 void LinkedList_addLastFast(LinkedList *L, int val);
 bool LinkedList_IsEmpty(const LinkedList *L);
 
