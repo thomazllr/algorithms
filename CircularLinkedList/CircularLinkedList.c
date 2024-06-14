@@ -24,8 +24,8 @@ CircList *CircList_create() {
     return NULL;
 }
 
+
 CircNode *CircNode_create(int val) {
     return NULL;
 }
-
 
