@@ -78,8 +78,8 @@ void List_addLast(List *L, int val) {
 void List_remove(List *L, int val) {
 
     if (!List_IsEmpty(L)) {
+        Node *p = L->begin;
         if(L->begin->val == val) {
-            Node *p = L->begin;
             L->begin = p->next;
 
             if(p == L->end) {
