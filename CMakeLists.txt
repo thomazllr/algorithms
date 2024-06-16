@@ -20,3 +20,6 @@ add_executable(CircularLinkedList CircularLinkedList/main.c
 add_executable(DoublyLinkedList DoublyLinkedList/main.c
         DoublyLinkedList/DoublyLinkedList.c
         DoublyLinkedList/DoublyLinkedList.h)
+
+
+add_executable(EDMundo CircularLinkedList/EDMundo/main.c CircularLinkedList/EDMundo/CircularLinkedList.c)

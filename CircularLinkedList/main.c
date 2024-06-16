@@ -11,13 +11,24 @@ int main() {
 
     CircList *L = CircList_create();
 
-    CircList_add_first(L, 5);
-    CircList_add_first(L, 3);
-    CircList_add_first(L, 2);
-    CircList_add_first(L, 1);
+    CircList_add_last(L, 5);
+    CircList_add_last(L, 3);
+    CircList_add_last(L, 2);
+    CircList_add_last(L, 1);
 
     CircList_print(L);
+    printf(" \n\n");
 
+//    CircList_remove(L, 5);
+    CircList_remove(L, 3);
+    CircList_print(L);
+    printf(" \n\n");
+
+    CircList_remove(L, 1);
+    CircList_print(L);
+    printf(" \n\n");
+
+//    CircList_inverted_print(L);
     return 0;
 
 }

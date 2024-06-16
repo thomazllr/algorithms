@@ -274,6 +274,46 @@ build DoublyLinkedList.exe: C_EXECUTABLE_LINKER__DoublyLinkedList_Debug CMakeFil
   TARGET_IMPLIB = libDoublyLinkedList.dll.a
   TARGET_PDB = DoublyLinkedList.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target EDMundo
+
+
+#############################################
+# Order-only phony target for EDMundo
+
+build cmake_object_order_depends_target_EDMundo: phony || CMakeFiles/EDMundo.dir
+
+build CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj: C_COMPILER__EDMundo_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/CircularLinkedList/EDMundo/main.c || cmake_object_order_depends_target_EDMundo
+  DEP_FILE = CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\main.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EDMundo.dir
+  OBJECT_FILE_DIR = CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo
+
+build CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj: C_COMPILER__EDMundo_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/CircularLinkedList/EDMundo/CircularLinkedList.c || cmake_object_order_depends_target_EDMundo
+  DEP_FILE = CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\CircularLinkedList.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EDMundo.dir
+  OBJECT_FILE_DIR = CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EDMundo
+
+
+#############################################
+# Link the executable EDMundo.exe
+
+build EDMundo.exe: C_EXECUTABLE_LINKER__EDMundo_Debug CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj
+  FLAGS = -g
+  LINK_FLAGS = -Wl,-subsystem,console
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EDMundo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EDMundo.exe
+  TARGET_IMPLIB = libEDMundo.dll.a
+  TARGET_PDB = EDMundo.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -304,6 +344,8 @@ build CircularLinkedList: phony CircularLinkedList.exe
 
 build DoublyLinkedList: phony DoublyLinkedList.exe
 
+build EDMundo: phony EDMundo.exe
+
 build LinkedList: phony LinkedList.exe
 
 build Stack: phony Stack.exe
@@ -320,7 +362,7 @@ build algorithms: phony algorithms.exe
 #############################################
 # Folder: C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug
 
-build all: phony algorithms.exe LinkedList.exe Stack.exe ToninhoTrocador.exe CircularLinkedList.exe DoublyLinkedList.exe
+build all: phony algorithms.exe LinkedList.exe Stack.exe ToninhoTrocador.exe CircularLinkedList.exe DoublyLinkedList.exe EDMundo.exe
 
 # =============================================================================
 # Built-in targets
