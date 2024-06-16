@@ -314,6 +314,46 @@ build EDMundo.exe: C_EXECUTABLE_LINKER__EDMundo_Debug CMakeFiles/EDMundo.dir/Cir
   TARGET_IMPLIB = libEDMundo.dll.a
   TARGET_PDB = EDMundo.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Igualdade
+
+
+#############################################
+# Order-only phony target for Igualdade
+
+build cmake_object_order_depends_target_Igualdade: phony || CMakeFiles/Igualdade.dir
+
+build CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj: C_COMPILER__Igualdade_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/CircularLinkedList/Igualdade/main.c || cmake_object_order_depends_target_Igualdade
+  DEP_FILE = CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\main.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Igualdade.dir
+  OBJECT_FILE_DIR = CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade
+
+build CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj: C_COMPILER__Igualdade_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/CircularLinkedList/Igualdade/CircularLinkedList.c || cmake_object_order_depends_target_Igualdade
+  DEP_FILE = CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\CircularLinkedList.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Igualdade.dir
+  OBJECT_FILE_DIR = CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Igualdade
+
+
+#############################################
+# Link the executable Igualdade.exe
+
+build Igualdade.exe: C_EXECUTABLE_LINKER__Igualdade_Debug CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj
+  FLAGS = -g
+  LINK_FLAGS = -Wl,-subsystem,console
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Igualdade.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Igualdade.exe
+  TARGET_IMPLIB = libIgualdade.dll.a
+  TARGET_PDB = Igualdade.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -346,6 +386,8 @@ build DoublyLinkedList: phony DoublyLinkedList.exe
 
 build EDMundo: phony EDMundo.exe
 
+build Igualdade: phony Igualdade.exe
+
 build LinkedList: phony LinkedList.exe
 
 build Stack: phony Stack.exe
@@ -362,7 +404,7 @@ build algorithms: phony algorithms.exe
 #############################################
 # Folder: C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug
 
-build all: phony algorithms.exe LinkedList.exe Stack.exe ToninhoTrocador.exe CircularLinkedList.exe DoublyLinkedList.exe EDMundo.exe
+build all: phony algorithms.exe LinkedList.exe Stack.exe ToninhoTrocador.exe CircularLinkedList.exe DoublyLinkedList.exe EDMundo.exe Igualdade.exe
 
 # =============================================================================
 # Built-in targets
