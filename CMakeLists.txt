@@ -9,9 +9,9 @@ add_executable(algorithms main.c
 
 add_executable(LinkedList LinkedList/main.c LinkedList/LinkedList.c LinkedList/LinkedList.h)
 
-add_executable(Stack Stack/main.c
-        Stack/Stack.c
-        Stack/Stack.h)
+add_executable(StaticStack StaticStack/main.c
+        StaticStack/Stack.c
+        StaticStack/Stack.h)
 
 add_executable(ToninhoTrocador LinkedList/ToninhoTrocador/main.c LinkedList/ToninhoTrocador/LinkedList.c LinkedList/ToninhoTrocador/LinkedList.h)
 add_executable(CircularLinkedList CircularLinkedList/main.c
@@ -23,6 +23,10 @@ add_executable(DoublyLinkedList DoublyLinkedList/main.c
 
 
 add_executable(EDMundo CircularLinkedList/EDMundo/main.c CircularLinkedList/EDMundo/CircularLinkedList.c)
+
 add_executable(Igualdade CircularLinkedList/Igualdade/main.c
         CircularLinkedList/Igualdade/CircularLinkedList.c
         CircularLinkedList/Igualdade/CircularLinkedList.h)
+add_executable(Stack Stack/main.c
+        Stack/Stack.c
+        Stack/Stack.h)

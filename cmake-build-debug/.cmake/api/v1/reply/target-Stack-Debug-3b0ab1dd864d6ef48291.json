@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Igualdade.exe"
+			"path" : "Stack.exe"
 		},
 		{
-			"path" : "Igualdade.pdb"
+			"path" : "Stack.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 26,
+				"line" : 30,
 				"parent" : 0
 			}
 		]
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "Igualdade::@6890427a1f51a3e7e1df",
+	"id" : "Stack::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +77,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Igualdade",
-	"nameOnDisk" : "Igualdade.exe",
+	"name" : "Stack",
+	"nameOnDisk" : "Stack.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -107,18 +107,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "CircularLinkedList/Igualdade/main.c",
+			"path" : "Stack/main.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "CircularLinkedList/Igualdade/CircularLinkedList.c",
+			"path" : "Stack/Stack.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "CircularLinkedList/Igualdade/CircularLinkedList.h",
+			"path" : "Stack/Stack.h",
 			"sourceGroupIndex" : 1
 		}
 	],

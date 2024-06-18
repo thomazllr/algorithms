@@ -1,10 +1,11 @@
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/algorithms.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/LinkedList.dir
-C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/Stack.dir
+C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/StaticStack.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/ToninhoTrocador.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/CircularLinkedList.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/DoublyLinkedList.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/EDMundo.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/Igualdade.dir
+C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/Stack.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir

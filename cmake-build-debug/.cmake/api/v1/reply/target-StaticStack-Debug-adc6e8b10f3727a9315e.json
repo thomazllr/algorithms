@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Stack.exe"
+			"path" : "StaticStack.exe"
 		},
 		{
-			"path" : "Stack.pdb"
+			"path" : "StaticStack.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "Stack::@6890427a1f51a3e7e1df",
+	"id" : "StaticStack::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +77,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Stack",
-	"nameOnDisk" : "Stack.exe",
+	"name" : "StaticStack",
+	"nameOnDisk" : "StaticStack.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -107,18 +107,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Stack/main.c",
+			"path" : "StaticStack/main.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Stack/Stack.c",
+			"path" : "StaticStack/Stack.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Stack/Stack.h",
+			"path" : "StaticStack/Stack.h",
 			"sourceGroupIndex" : 1
 		}
 	],

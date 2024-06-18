@@ -115,44 +115,44 @@ build LinkedList.exe: C_EXECUTABLE_LINKER__LinkedList_Debug CMakeFiles/LinkedLis
   TARGET_PDB = LinkedList.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Stack
+# Object build statements for EXECUTABLE target StaticStack
 
 
 #############################################
-# Order-only phony target for Stack
+# Order-only phony target for StaticStack
 
-build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
+build cmake_object_order_depends_target_StaticStack: phony || CMakeFiles/StaticStack.dir
 
-build CMakeFiles/Stack.dir/Stack/main.c.obj: C_COMPILER__Stack_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/Stack/main.c || cmake_object_order_depends_target_Stack
-  DEP_FILE = CMakeFiles\Stack.dir\Stack\main.c.obj.d
+build CMakeFiles/StaticStack.dir/StaticStack/main.c.obj: C_COMPILER__StaticStack_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/StaticStack/main.c || cmake_object_order_depends_target_StaticStack
+  DEP_FILE = CMakeFiles\StaticStack.dir\StaticStack\main.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Stack.dir
-  OBJECT_FILE_DIR = CMakeFiles\Stack.dir\Stack
+  OBJECT_DIR = CMakeFiles\StaticStack.dir
+  OBJECT_FILE_DIR = CMakeFiles\StaticStack.dir\StaticStack
 
-build CMakeFiles/Stack.dir/Stack/Stack.c.obj: C_COMPILER__Stack_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/Stack/Stack.c || cmake_object_order_depends_target_Stack
-  DEP_FILE = CMakeFiles\Stack.dir\Stack\Stack.c.obj.d
+build CMakeFiles/StaticStack.dir/StaticStack/Stack.c.obj: C_COMPILER__StaticStack_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/StaticStack/Stack.c || cmake_object_order_depends_target_StaticStack
+  DEP_FILE = CMakeFiles\StaticStack.dir\StaticStack\Stack.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Stack.dir
-  OBJECT_FILE_DIR = CMakeFiles\Stack.dir\Stack
+  OBJECT_DIR = CMakeFiles\StaticStack.dir
+  OBJECT_FILE_DIR = CMakeFiles\StaticStack.dir\StaticStack
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Stack
+# Link build statements for EXECUTABLE target StaticStack
 
 
 #############################################
-# Link the executable Stack.exe
+# Link the executable StaticStack.exe
 
-build Stack.exe: C_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/Stack/main.c.obj CMakeFiles/Stack.dir/Stack/Stack.c.obj
+build StaticStack.exe: C_EXECUTABLE_LINKER__StaticStack_Debug CMakeFiles/StaticStack.dir/StaticStack/main.c.obj CMakeFiles/StaticStack.dir/StaticStack/Stack.c.obj
   FLAGS = -g
   LINK_FLAGS = -Wl,-subsystem,console
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Stack.dir
+  OBJECT_DIR = CMakeFiles\StaticStack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Stack.exe
-  TARGET_IMPLIB = libStack.dll.a
-  TARGET_PDB = Stack.exe.dbg
+  TARGET_FILE = StaticStack.exe
+  TARGET_IMPLIB = libStaticStack.dll.a
+  TARGET_PDB = StaticStack.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ToninhoTrocador
@@ -354,6 +354,46 @@ build Igualdade.exe: C_EXECUTABLE_LINKER__Igualdade_Debug CMakeFiles/Igualdade.d
   TARGET_IMPLIB = libIgualdade.dll.a
   TARGET_PDB = Igualdade.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Order-only phony target for Stack
+
+build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
+
+build CMakeFiles/Stack.dir/Stack/main.c.obj: C_COMPILER__Stack_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/Stack/main.c || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles\Stack.dir\Stack\main.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stack.dir\Stack
+
+build CMakeFiles/Stack.dir/Stack/Stack.c.obj: C_COMPILER__Stack_unscanned_Debug C$:/Users/thoma/CLionProjects/algorithms/Stack/Stack.c || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles\Stack.dir\Stack\Stack.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stack.dir\Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Link the executable Stack.exe
+
+build Stack.exe: C_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/Stack/main.c.obj CMakeFiles/Stack.dir/Stack/Stack.c.obj
+  FLAGS = -g
+  LINK_FLAGS = -Wl,-subsystem,console
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Stack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Stack.exe
+  TARGET_IMPLIB = libStack.dll.a
+  TARGET_PDB = Stack.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -392,6 +432,8 @@ build LinkedList: phony LinkedList.exe
 
 build Stack: phony Stack.exe
 
+build StaticStack: phony StaticStack.exe
+
 build ToninhoTrocador: phony ToninhoTrocador.exe
 
 build algorithms: phony algorithms.exe
@@ -404,7 +446,7 @@ build algorithms: phony algorithms.exe
 #############################################
 # Folder: C:/Users/thoma/CLionProjects/algorithms/cmake-build-debug
 
-build all: phony algorithms.exe LinkedList.exe Stack.exe ToninhoTrocador.exe CircularLinkedList.exe DoublyLinkedList.exe EDMundo.exe Igualdade.exe
+build all: phony algorithms.exe LinkedList.exe StaticStack.exe ToninhoTrocador.exe CircularLinkedList.exe DoublyLinkedList.exe EDMundo.exe Igualdade.exe Stack.exe
 
 # =============================================================================
 # Built-in targets
