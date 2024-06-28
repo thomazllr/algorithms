@@ -181,17 +181,30 @@ DoublyLinkedListLib/fast:
 .PHONY : DoublyLinkedListLib/fast
 
 #=============================================================================
-# Target rules for targets named algorithms
+# Target rules for targets named StackDigitsLib
 
 # Build rule for target.
-algorithms: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithms
-.PHONY : algorithms
+StackDigitsLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StackDigitsLib
+.PHONY : StackDigitsLib
 
 # fast build rule for target.
-algorithms/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithms.dir\build.make CMakeFiles/algorithms.dir/build
-.PHONY : algorithms/fast
+StackDigitsLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackDigitsLib.dir\build.make CMakeFiles/StackDigitsLib.dir/build
+.PHONY : StackDigitsLib/fast
+
+#=============================================================================
+# Target rules for targets named StackLib
+
+# Build rule for target.
+StackLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StackLib
+.PHONY : StackLib
+
+# fast build rule for target.
+StackLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackLib.dir\build.make CMakeFiles/StackLib.dir/build
+.PHONY : StackLib/fast
 
 #=============================================================================
 # Target rules for targets named LinkedList
@@ -526,30 +539,6 @@ apps/toninho_trocador.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.s
 .PHONY : apps/toninho_trocador.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithms.dir\build.make CMakeFiles/algorithms.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithms.dir\build.make CMakeFiles/algorithms.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithms.dir\build.make CMakeFiles/algorithms.dir/main.c.s
-.PHONY : main.c.s
-
 src/CircularLinkedList.obj: src/CircularLinkedList.c.obj
 .PHONY : src/CircularLinkedList.obj
 
@@ -627,7 +616,7 @@ src/Stack.obj: src/Stack.c.obj
 
 # target to build an object file
 src/Stack.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/src/Stack.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackLib.dir\build.make CMakeFiles/StackLib.dir/src/Stack.c.obj
 .PHONY : src/Stack.c.obj
 
 src/Stack.i: src/Stack.c.i
@@ -635,7 +624,7 @@ src/Stack.i: src/Stack.c.i
 
 # target to preprocess a source file
 src/Stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/src/Stack.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackLib.dir\build.make CMakeFiles/StackLib.dir/src/Stack.c.i
 .PHONY : src/Stack.c.i
 
 src/Stack.s: src/Stack.c.s
@@ -643,7 +632,7 @@ src/Stack.s: src/Stack.c.s
 
 # target to generate assembly for a file
 src/Stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/src/Stack.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackLib.dir\build.make CMakeFiles/StackLib.dir/src/Stack.c.s
 .PHONY : src/Stack.c.s
 
 src/StackDigits.obj: src/StackDigits.c.obj
@@ -651,7 +640,7 @@ src/StackDigits.obj: src/StackDigits.c.obj
 
 # target to build an object file
 src/StackDigits.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/src/StackDigits.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackDigitsLib.dir\build.make CMakeFiles/StackDigitsLib.dir/src/StackDigits.c.obj
 .PHONY : src/StackDigits.c.obj
 
 src/StackDigits.i: src/StackDigits.c.i
@@ -659,7 +648,7 @@ src/StackDigits.i: src/StackDigits.c.i
 
 # target to preprocess a source file
 src/StackDigits.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/src/StackDigits.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackDigitsLib.dir\build.make CMakeFiles/StackDigitsLib.dir/src/StackDigits.c.i
 .PHONY : src/StackDigits.c.i
 
 src/StackDigits.s: src/StackDigits.c.s
@@ -667,7 +656,7 @@ src/StackDigits.s: src/StackDigits.c.s
 
 # target to generate assembly for a file
 src/StackDigits.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/src/StackDigits.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackDigitsLib.dir\build.make CMakeFiles/StackDigitsLib.dir/src/StackDigits.c.s
 .PHONY : src/StackDigits.c.s
 
 src/TLinkedList.obj: src/TLinkedList.c.obj
@@ -736,11 +725,12 @@ help:
 	@echo ... LinkedList
 	@echo ... LinkedListLib
 	@echo ... Stack
+	@echo ... StackDigitsLib
+	@echo ... StackLib
 	@echo ... StaticStack
 	@echo ... StaticStackLib
 	@echo ... ToninhoTrocador
 	@echo ... ToninhoTrocadorLib
-	@echo ... algorithms
 	@echo ... apps/circular_linked_list.obj
 	@echo ... apps/circular_linked_list.i
 	@echo ... apps/circular_linked_list.s
@@ -768,9 +758,6 @@ help:
 	@echo ... apps/toninho_trocador.obj
 	@echo ... apps/toninho_trocador.i
 	@echo ... apps/toninho_trocador.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... src/CircularLinkedList.obj
 	@echo ... src/CircularLinkedList.i
 	@echo ... src/CircularLinkedList.s

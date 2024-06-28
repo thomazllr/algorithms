@@ -1,0 +1,2 @@
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc libStackDigitsLib.a CMakeFiles/StackDigitsLib.dir/src/StackDigits.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ranlib.exe libStackDigitsLib.a

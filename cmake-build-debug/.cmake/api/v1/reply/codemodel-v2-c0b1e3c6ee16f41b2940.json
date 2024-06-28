@@ -29,7 +29,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -58,7 +59,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -102,7 +104,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "EDPILHA::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-EDPILHA-Debug-1f967ddfe11da8bcf799.json",
+					"jsonFile" : "target-EDPILHA-Debug-b524dee4c1d4b70205ec.json",
 					"name" : "EDPILHA",
 					"projectIndex" : 0
 				},
@@ -130,8 +132,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Stack::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Stack-Debug-74eadac04457bec04b2b.json",
+					"jsonFile" : "target-Stack-Debug-440baab6687f0e4743b6.json",
 					"name" : "Stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StackDigitsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StackDigitsLib-Debug-8c11a5b0d1b47faa3cce.json",
+					"name" : "StackDigitsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StackLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StackLib-Debug-12e6e4b6b857177ed78e.json",
+					"name" : "StackLib",
 					"projectIndex" : 0
 				},
 				{
@@ -160,13 +176,6 @@
 					"id" : "ToninhoTrocadorLib::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ToninhoTrocadorLib-Debug-a97405ebcbd5fff22574.json",
 					"name" : "ToninhoTrocadorLib",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "algorithms::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-algorithms-Debug-66c1fe18c7984e96e445.json",
-					"name" : "algorithms",
 					"projectIndex" : 0
 				}
 			]

@@ -217,11 +217,11 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="algorithms">
-				<Option output="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/algorithms.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="StackDigitsLib">
+				<Option output="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/libStackDigitsLib.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="1"/>
+				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
@@ -231,17 +231,17 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithms"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 StackDigitsLib"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="algorithms/fast">
-				<Option output="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/algorithms.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="StackDigitsLib/fast">
+				<Option output="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/libStackDigitsLib.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="1"/>
+				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
@@ -251,7 +251,47 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithms/fast"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 StackDigitsLib/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackLib">
+				<Option output="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/libStackLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 StackLib"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackLib/fast">
+				<Option output="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/libStackLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 StackLib/fast"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -675,19 +715,16 @@
 			<Option target="ToninhoTrocadorLib"/>
 		</Unit>
 		<Unit filename="C:/Users/08184638132/Documents/uft/algorithms/includes/Stack.h">
-			<Option target="Stack"/>
+			<Option target="StackLib"/>
 		</Unit>
 		<Unit filename="C:/Users/08184638132/Documents/uft/algorithms/includes/StackDigits.h">
-			<Option target="EDPILHA"/>
+			<Option target="StackDigitsLib"/>
 		</Unit>
 		<Unit filename="C:/Users/08184638132/Documents/uft/algorithms/includes/TLinkedList.h">
 			<Option target="LinkedListLib"/>
 		</Unit>
 		<Unit filename="C:/Users/08184638132/Documents/uft/algorithms/includes/static_stack.h">
 			<Option target="StaticStackLib"/>
-		</Unit>
-		<Unit filename="C:/Users/08184638132/Documents/uft/algorithms/main.c">
-			<Option target="algorithms"/>
 		</Unit>
 		<Unit filename="C:/Users/08184638132/Documents/uft/algorithms/src/CircularLinkedList.c">
 			<Option target="CircularLinkedListLib"/>
@@ -699,10 +736,10 @@
 			<Option target="ToninhoTrocadorLib"/>
 		</Unit>
 		<Unit filename="C:/Users/08184638132/Documents/uft/algorithms/src/Stack.c">
-			<Option target="Stack"/>
+			<Option target="StackLib"/>
 		</Unit>
 		<Unit filename="C:/Users/08184638132/Documents/uft/algorithms/src/StackDigits.c">
-			<Option target="EDPILHA"/>
+			<Option target="StackDigitsLib"/>
 		</Unit>
 		<Unit filename="C:/Users/08184638132/Documents/uft/algorithms/src/TLinkedList.c">
 			<Option target="LinkedListLib"/>

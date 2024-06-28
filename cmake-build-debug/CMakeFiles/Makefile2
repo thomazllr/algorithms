@@ -67,7 +67,8 @@ all: CMakeFiles/StaticStackLib.dir/all
 all: CMakeFiles/ToninhoTrocadorLib.dir/all
 all: CMakeFiles/CircularLinkedListLib.dir/all
 all: CMakeFiles/DoublyLinkedListLib.dir/all
-all: CMakeFiles/algorithms.dir/all
+all: CMakeFiles/StackDigitsLib.dir/all
+all: CMakeFiles/StackLib.dir/all
 all: CMakeFiles/LinkedList.dir/all
 all: CMakeFiles/StaticStack.dir/all
 all: CMakeFiles/ToninhoTrocador.dir/all
@@ -89,7 +90,8 @@ clean: CMakeFiles/StaticStackLib.dir/clean
 clean: CMakeFiles/ToninhoTrocadorLib.dir/clean
 clean: CMakeFiles/CircularLinkedListLib.dir/clean
 clean: CMakeFiles/DoublyLinkedListLib.dir/clean
-clean: CMakeFiles/algorithms.dir/clean
+clean: CMakeFiles/StackDigitsLib.dir/clean
+clean: CMakeFiles/StackLib.dir/clean
 clean: CMakeFiles/LinkedList.dir/clean
 clean: CMakeFiles/StaticStack.dir/clean
 clean: CMakeFiles/ToninhoTrocador.dir/clean
@@ -108,7 +110,7 @@ clean: CMakeFiles/EDPILHA.dir/clean
 CMakeFiles/LinkedListLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListLib.dir\build.make CMakeFiles/LinkedListLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListLib.dir\build.make CMakeFiles/LinkedListLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target LinkedListLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target LinkedListLib"
 .PHONY : CMakeFiles/LinkedListLib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -134,7 +136,7 @@ CMakeFiles/LinkedListLib.dir/clean:
 CMakeFiles/StaticStackLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStackLib.dir\build.make CMakeFiles/StaticStackLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStackLib.dir\build.make CMakeFiles/StaticStackLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target StaticStackLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target StaticStackLib"
 .PHONY : CMakeFiles/StaticStackLib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -160,7 +162,7 @@ CMakeFiles/StaticStackLib.dir/clean:
 CMakeFiles/ToninhoTrocadorLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocadorLib.dir\build.make CMakeFiles/ToninhoTrocadorLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocadorLib.dir\build.make CMakeFiles/ToninhoTrocadorLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target ToninhoTrocadorLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target ToninhoTrocadorLib"
 .PHONY : CMakeFiles/ToninhoTrocadorLib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -232,30 +234,56 @@ CMakeFiles/DoublyLinkedListLib.dir/clean:
 .PHONY : CMakeFiles/DoublyLinkedListLib.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/algorithms.dir
+# Target rules for target CMakeFiles/StackDigitsLib.dir
 
 # All Build rule for target.
-CMakeFiles/algorithms.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithms.dir\build.make CMakeFiles/algorithms.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithms.dir\build.make CMakeFiles/algorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target algorithms"
-.PHONY : CMakeFiles/algorithms.dir/all
+CMakeFiles/StackDigitsLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackDigitsLib.dir\build.make CMakeFiles/StackDigitsLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackDigitsLib.dir\build.make CMakeFiles/StackDigitsLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target StackDigitsLib"
+.PHONY : CMakeFiles/StackDigitsLib.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/algorithms.dir/rule: cmake_check_build_system
+CMakeFiles/StackDigitsLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithms.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StackDigitsLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/algorithms.dir/rule
+.PHONY : CMakeFiles/StackDigitsLib.dir/rule
 
 # Convenience name for target.
-algorithms: CMakeFiles/algorithms.dir/rule
-.PHONY : algorithms
+StackDigitsLib: CMakeFiles/StackDigitsLib.dir/rule
+.PHONY : StackDigitsLib
 
 # clean rule for target.
-CMakeFiles/algorithms.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithms.dir\build.make CMakeFiles/algorithms.dir/clean
-.PHONY : CMakeFiles/algorithms.dir/clean
+CMakeFiles/StackDigitsLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackDigitsLib.dir\build.make CMakeFiles/StackDigitsLib.dir/clean
+.PHONY : CMakeFiles/StackDigitsLib.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/StackLib.dir
+
+# All Build rule for target.
+CMakeFiles/StackLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackLib.dir\build.make CMakeFiles/StackLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackLib.dir\build.make CMakeFiles/StackLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target StackLib"
+.PHONY : CMakeFiles/StackLib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/StackLib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StackLib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/StackLib.dir/rule
+
+# Convenience name for target.
+StackLib: CMakeFiles/StackLib.dir/rule
+.PHONY : StackLib
+
+# clean rule for target.
+CMakeFiles/StackLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StackLib.dir\build.make CMakeFiles/StackLib.dir/clean
+.PHONY : CMakeFiles/StackLib.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/LinkedList.dir
@@ -264,7 +292,7 @@ CMakeFiles/algorithms.dir/clean:
 CMakeFiles/LinkedList.dir/all: CMakeFiles/LinkedListLib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target LinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target LinkedList"
 .PHONY : CMakeFiles/LinkedList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -290,7 +318,7 @@ CMakeFiles/LinkedList.dir/clean:
 CMakeFiles/StaticStack.dir/all: CMakeFiles/StaticStackLib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStack.dir\build.make CMakeFiles/StaticStack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStack.dir\build.make CMakeFiles/StaticStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target StaticStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target StaticStack"
 .PHONY : CMakeFiles/StaticStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -316,7 +344,7 @@ CMakeFiles/StaticStack.dir/clean:
 CMakeFiles/ToninhoTrocador.dir/all: CMakeFiles/ToninhoTrocadorLib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target ToninhoTrocador"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target ToninhoTrocador"
 .PHONY : CMakeFiles/ToninhoTrocador.dir/all
 
 # Build rule for subdir invocation for target.
@@ -420,7 +448,7 @@ CMakeFiles/EDMundo.dir/clean:
 CMakeFiles/Igualdade.dir/all: CMakeFiles/CircularLinkedListLib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Igualdade.dir\build.make CMakeFiles/Igualdade.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Igualdade.dir\build.make CMakeFiles/Igualdade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target Igualdade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Igualdade"
 .PHONY : CMakeFiles/Igualdade.dir/all
 
 # Build rule for subdir invocation for target.
@@ -443,15 +471,15 @@ CMakeFiles/Igualdade.dir/clean:
 # Target rules for target CMakeFiles/Stack.dir
 
 # All Build rule for target.
-CMakeFiles/Stack.dir/all:
+CMakeFiles/Stack.dir/all: CMakeFiles/StackLib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=20,21,22 "Built target Stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Stack"
 .PHONY : CMakeFiles/Stack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Stack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Stack.dir/rule
@@ -469,15 +497,15 @@ CMakeFiles/Stack.dir/clean:
 # Target rules for target CMakeFiles/EDPILHA.dir
 
 # All Build rule for target.
-CMakeFiles/EDPILHA.dir/all:
+CMakeFiles/EDPILHA.dir/all: CMakeFiles/StackDigitsLib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=11,12,13 "Built target EDPILHA"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target EDPILHA"
 .PHONY : CMakeFiles/EDPILHA.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/EDPILHA.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/EDPILHA.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/EDPILHA.dir/rule

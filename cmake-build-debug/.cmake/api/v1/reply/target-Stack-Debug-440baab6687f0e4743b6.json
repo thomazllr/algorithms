@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "algorithms.exe"
+			"path" : "Stack.exe"
 		},
 		{
-			"path" : "algorithms.pdb"
+			"path" : "Stack.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -14,7 +14,8 @@
 		"commands" : 
 		[
 			"add_executable",
-			"add_algorithm_executable"
+			"add_algorithm_executable",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -28,7 +29,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 18,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
@@ -36,6 +37,12 @@
 				"file" : 0,
 				"line" : 8,
 				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
 			}
 		]
 	},
@@ -63,7 +70,14 @@
 			]
 		}
 	],
-	"id" : "algorithms::@6890427a1f51a3e7e1df",
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "StackLib::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Stack::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,14 +91,19 @@
 				"role" : "flags"
 			},
 			{
+				"backtrace" : 3,
+				"fragment" : "libStackLib.a",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
-	"name" : "algorithms",
-	"nameOnDisk" : "algorithms.exe",
+	"name" : "Stack",
+	"nameOnDisk" : "Stack.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -105,7 +124,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "apps/stack_app.c",
 			"sourceGroupIndex" : 0
 		}
 	],

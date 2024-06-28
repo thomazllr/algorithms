@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/08184638132/Documents/uft/algorithms/apps/stack_app.c" "CMakeFiles/Stack.dir/apps/stack_app.c.obj" "gcc" "CMakeFiles/Stack.dir/apps/stack_app.c.obj.d"
-  "C:/Users/08184638132/Documents/uft/algorithms/src/Stack.c" "CMakeFiles/Stack.dir/src/Stack.c.obj" "gcc" "CMakeFiles/Stack.dir/src/Stack.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
