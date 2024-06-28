@@ -47,6 +47,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/LinkedListLib.dir/DependInfo.cmake"
+  "CMakeFiles/StaticStackLib.dir/DependInfo.cmake"
+  "CMakeFiles/ToninhoTrocadorLib.dir/DependInfo.cmake"
+  "CMakeFiles/CircularLinkedListLib.dir/DependInfo.cmake"
+  "CMakeFiles/DoublyLinkedListLib.dir/DependInfo.cmake"
   "CMakeFiles/algorithms.dir/DependInfo.cmake"
   "CMakeFiles/LinkedList.dir/DependInfo.cmake"
   "CMakeFiles/StaticStack.dir/DependInfo.cmake"
@@ -56,5 +61,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/EDMundo.dir/DependInfo.cmake"
   "CMakeFiles/Igualdade.dir/DependInfo.cmake"
   "CMakeFiles/Stack.dir/DependInfo.cmake"
-  "CMakeFiles/EDPilha.dir/DependInfo.cmake"
+  "CMakeFiles/EDPILHA.dir/DependInfo.cmake"
   )

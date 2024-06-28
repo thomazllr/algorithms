@@ -8,9 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/08184638132/Documents/uft/algorithms/DoublyLinkedList/DoublyLinkedList.c" "CMakeFiles/EDPilha.dir/DoublyLinkedList/DoublyLinkedList.c.obj" "gcc" "CMakeFiles/EDPilha.dir/DoublyLinkedList/DoublyLinkedList.c.obj.d"
-  "C:/Users/08184638132/Documents/uft/algorithms/Stack/EDPilha/Stack.c" "CMakeFiles/EDPilha.dir/Stack/EDPilha/Stack.c.obj" "gcc" "CMakeFiles/EDPilha.dir/Stack/EDPilha/Stack.c.obj.d"
-  "C:/Users/08184638132/Documents/uft/algorithms/Stack/EDPilha/main.c" "CMakeFiles/EDPilha.dir/Stack/EDPilha/main.c.obj" "gcc" "CMakeFiles/EDPilha.dir/Stack/EDPilha/main.c.obj.d"
+  "C:/Users/08184638132/Documents/uft/algorithms/apps/stack_digits_app.c" "CMakeFiles/EDPILHA.dir/apps/stack_digits_app.c.obj" "gcc" "CMakeFiles/EDPILHA.dir/apps/stack_digits_app.c.obj.d"
+  "C:/Users/08184638132/Documents/uft/algorithms/src/StackDigits.c" "CMakeFiles/EDPILHA.dir/src/StackDigits.c.obj" "gcc" "CMakeFiles/EDPILHA.dir/src/StackDigits.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

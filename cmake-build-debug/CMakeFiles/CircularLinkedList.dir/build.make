@@ -68,49 +68,34 @@ include CMakeFiles/CircularLinkedList.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CircularLinkedList.dir/flags.make
 
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj: CMakeFiles/CircularLinkedList.dir/flags.make
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj: C:/Users/08184638132/Documents/uft/algorithms/CircularLinkedList/main.c
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj: CMakeFiles/CircularLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj -MF CMakeFiles\CircularLinkedList.dir\CircularLinkedList\main.c.obj.d -o CMakeFiles\CircularLinkedList.dir\CircularLinkedList\main.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\main.c
+CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj: CMakeFiles/CircularLinkedList.dir/flags.make
+CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj: C:/Users/08184638132/Documents/uft/algorithms/apps/circular_linked_list.c
+CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj: CMakeFiles/CircularLinkedList.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj -MF CMakeFiles\CircularLinkedList.dir\apps\circular_linked_list.c.obj.d -o CMakeFiles\CircularLinkedList.dir\apps\circular_linked_list.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\apps\circular_linked_list.c
 
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\main.c > CMakeFiles\CircularLinkedList.dir\CircularLinkedList\main.c.i
+CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\apps\circular_linked_list.c > CMakeFiles\CircularLinkedList.dir\apps\circular_linked_list.c.i
 
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\main.c -o CMakeFiles\CircularLinkedList.dir\CircularLinkedList\main.c.s
-
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj: CMakeFiles/CircularLinkedList.dir/flags.make
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj: C:/Users/08184638132/Documents/uft/algorithms/CircularLinkedList/CircularLinkedList.c
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj: CMakeFiles/CircularLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj -MF CMakeFiles\CircularLinkedList.dir\CircularLinkedList\CircularLinkedList.c.obj.d -o CMakeFiles\CircularLinkedList.dir\CircularLinkedList\CircularLinkedList.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\CircularLinkedList.c
-
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\CircularLinkedList.c > CMakeFiles\CircularLinkedList.dir\CircularLinkedList\CircularLinkedList.c.i
-
-CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\CircularLinkedList.c -o CMakeFiles\CircularLinkedList.dir\CircularLinkedList\CircularLinkedList.c.s
+CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\apps\circular_linked_list.c -o CMakeFiles\CircularLinkedList.dir\apps\circular_linked_list.c.s
 
 # Object files for target CircularLinkedList
 CircularLinkedList_OBJECTS = \
-"CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj" \
-"CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj"
+"CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj"
 
 # External object files for target CircularLinkedList
 CircularLinkedList_EXTERNAL_OBJECTS =
 
-CircularLinkedList.exe: CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj
-CircularLinkedList.exe: CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj
+CircularLinkedList.exe: CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj
 CircularLinkedList.exe: CMakeFiles/CircularLinkedList.dir/build.make
+CircularLinkedList.exe: libCircularLinkedListLib.a
 CircularLinkedList.exe: CMakeFiles/CircularLinkedList.dir/linkLibs.rsp
 CircularLinkedList.exe: CMakeFiles/CircularLinkedList.dir/objects1.rsp
 CircularLinkedList.exe: CMakeFiles/CircularLinkedList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable CircularLinkedList.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CircularLinkedList.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CircularLinkedList.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

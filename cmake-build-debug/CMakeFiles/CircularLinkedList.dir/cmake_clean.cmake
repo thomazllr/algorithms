@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj"
-  "CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj.d"
-  "CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj"
-  "CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj.d"
+  "CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj"
+  "CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj.d"
   "CircularLinkedList.exe"
   "CircularLinkedList.exe.manifest"
   "CircularLinkedList.pdb"

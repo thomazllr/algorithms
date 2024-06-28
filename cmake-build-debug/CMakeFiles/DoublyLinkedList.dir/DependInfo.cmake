@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/08184638132/Documents/uft/algorithms/DoublyLinkedList/DoublyLinkedList.c" "CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj" "gcc" "CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj.d"
-  "C:/Users/08184638132/Documents/uft/algorithms/DoublyLinkedList/main.c" "CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj" "gcc" "CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj.d"
+  "C:/Users/08184638132/Documents/uft/algorithms/apps/doubly_linked_list.c" "CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj" "gcc" "CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

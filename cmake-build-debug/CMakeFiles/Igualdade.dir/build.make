@@ -68,49 +68,34 @@ include CMakeFiles/Igualdade.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Igualdade.dir/flags.make
 
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj: CMakeFiles/Igualdade.dir/flags.make
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj: C:/Users/08184638132/Documents/uft/algorithms/CircularLinkedList/Igualdade/main.c
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj: CMakeFiles/Igualdade.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj -MF CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\main.c.obj.d -o CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\main.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\Igualdade\main.c
+CMakeFiles/Igualdade.dir/apps/igualdade.c.obj: CMakeFiles/Igualdade.dir/flags.make
+CMakeFiles/Igualdade.dir/apps/igualdade.c.obj: C:/Users/08184638132/Documents/uft/algorithms/apps/igualdade.c
+CMakeFiles/Igualdade.dir/apps/igualdade.c.obj: CMakeFiles/Igualdade.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Igualdade.dir/apps/igualdade.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Igualdade.dir/apps/igualdade.c.obj -MF CMakeFiles\Igualdade.dir\apps\igualdade.c.obj.d -o CMakeFiles\Igualdade.dir\apps\igualdade.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\apps\igualdade.c
 
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\Igualdade\main.c > CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\main.c.i
+CMakeFiles/Igualdade.dir/apps/igualdade.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Igualdade.dir/apps/igualdade.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\apps\igualdade.c > CMakeFiles\Igualdade.dir\apps\igualdade.c.i
 
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\Igualdade\main.c -o CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\main.c.s
-
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj: CMakeFiles/Igualdade.dir/flags.make
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj: C:/Users/08184638132/Documents/uft/algorithms/CircularLinkedList/Igualdade/CircularLinkedList.c
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj: CMakeFiles/Igualdade.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj -MF CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\CircularLinkedList.c.obj.d -o CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\CircularLinkedList.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\Igualdade\CircularLinkedList.c
-
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\Igualdade\CircularLinkedList.c > CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\CircularLinkedList.c.i
-
-CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\Igualdade\CircularLinkedList.c -o CMakeFiles\Igualdade.dir\CircularLinkedList\Igualdade\CircularLinkedList.c.s
+CMakeFiles/Igualdade.dir/apps/igualdade.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Igualdade.dir/apps/igualdade.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\apps\igualdade.c -o CMakeFiles\Igualdade.dir\apps\igualdade.c.s
 
 # Object files for target Igualdade
 Igualdade_OBJECTS = \
-"CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj" \
-"CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj"
+"CMakeFiles/Igualdade.dir/apps/igualdade.c.obj"
 
 # External object files for target Igualdade
 Igualdade_EXTERNAL_OBJECTS =
 
-Igualdade.exe: CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj
-Igualdade.exe: CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj
+Igualdade.exe: CMakeFiles/Igualdade.dir/apps/igualdade.c.obj
 Igualdade.exe: CMakeFiles/Igualdade.dir/build.make
+Igualdade.exe: libCircularLinkedListLib.a
 Igualdade.exe: CMakeFiles/Igualdade.dir/linkLibs.rsp
 Igualdade.exe: CMakeFiles/Igualdade.dir/objects1.rsp
 Igualdade.exe: CMakeFiles/Igualdade.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Igualdade.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Igualdade.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Igualdade.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

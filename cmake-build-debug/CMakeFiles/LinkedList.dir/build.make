@@ -68,49 +68,34 @@ include CMakeFiles/LinkedList.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LinkedList.dir/flags.make
 
-CMakeFiles/LinkedList.dir/LinkedList/main.c.obj: CMakeFiles/LinkedList.dir/flags.make
-CMakeFiles/LinkedList.dir/LinkedList/main.c.obj: C:/Users/08184638132/Documents/uft/algorithms/LinkedList/main.c
-CMakeFiles/LinkedList.dir/LinkedList/main.c.obj: CMakeFiles/LinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinkedList.dir/LinkedList/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LinkedList.dir/LinkedList/main.c.obj -MF CMakeFiles\LinkedList.dir\LinkedList\main.c.obj.d -o CMakeFiles\LinkedList.dir\LinkedList\main.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\LinkedList\main.c
+CMakeFiles/LinkedList.dir/apps/linked_list.c.obj: CMakeFiles/LinkedList.dir/flags.make
+CMakeFiles/LinkedList.dir/apps/linked_list.c.obj: C:/Users/08184638132/Documents/uft/algorithms/apps/linked_list.c
+CMakeFiles/LinkedList.dir/apps/linked_list.c.obj: CMakeFiles/LinkedList.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinkedList.dir/apps/linked_list.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LinkedList.dir/apps/linked_list.c.obj -MF CMakeFiles\LinkedList.dir\apps\linked_list.c.obj.d -o CMakeFiles\LinkedList.dir\apps\linked_list.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\apps\linked_list.c
 
-CMakeFiles/LinkedList.dir/LinkedList/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LinkedList.dir/LinkedList/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\LinkedList\main.c > CMakeFiles\LinkedList.dir\LinkedList\main.c.i
+CMakeFiles/LinkedList.dir/apps/linked_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LinkedList.dir/apps/linked_list.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\apps\linked_list.c > CMakeFiles\LinkedList.dir\apps\linked_list.c.i
 
-CMakeFiles/LinkedList.dir/LinkedList/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LinkedList.dir/LinkedList/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\LinkedList\main.c -o CMakeFiles\LinkedList.dir\LinkedList\main.c.s
-
-CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj: CMakeFiles/LinkedList.dir/flags.make
-CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj: C:/Users/08184638132/Documents/uft/algorithms/LinkedList/LinkedList.c
-CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj: CMakeFiles/LinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj -MF CMakeFiles\LinkedList.dir\LinkedList\LinkedList.c.obj.d -o CMakeFiles\LinkedList.dir\LinkedList\LinkedList.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\LinkedList\LinkedList.c
-
-CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\LinkedList\LinkedList.c > CMakeFiles\LinkedList.dir\LinkedList\LinkedList.c.i
-
-CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\LinkedList\LinkedList.c -o CMakeFiles\LinkedList.dir\LinkedList\LinkedList.c.s
+CMakeFiles/LinkedList.dir/apps/linked_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LinkedList.dir/apps/linked_list.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\apps\linked_list.c -o CMakeFiles\LinkedList.dir\apps\linked_list.c.s
 
 # Object files for target LinkedList
 LinkedList_OBJECTS = \
-"CMakeFiles/LinkedList.dir/LinkedList/main.c.obj" \
-"CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj"
+"CMakeFiles/LinkedList.dir/apps/linked_list.c.obj"
 
 # External object files for target LinkedList
 LinkedList_EXTERNAL_OBJECTS =
 
-LinkedList.exe: CMakeFiles/LinkedList.dir/LinkedList/main.c.obj
-LinkedList.exe: CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj
+LinkedList.exe: CMakeFiles/LinkedList.dir/apps/linked_list.c.obj
 LinkedList.exe: CMakeFiles/LinkedList.dir/build.make
+LinkedList.exe: libLinkedListLib.a
 LinkedList.exe: CMakeFiles/LinkedList.dir/linkLibs.rsp
 LinkedList.exe: CMakeFiles/LinkedList.dir/objects1.rsp
 LinkedList.exe: CMakeFiles/LinkedList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable LinkedList.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable LinkedList.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LinkedList.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

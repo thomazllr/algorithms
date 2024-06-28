@@ -68,49 +68,34 @@ include CMakeFiles/DoublyLinkedList.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DoublyLinkedList.dir/flags.make
 
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj: CMakeFiles/DoublyLinkedList.dir/flags.make
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj: C:/Users/08184638132/Documents/uft/algorithms/DoublyLinkedList/main.c
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj: CMakeFiles/DoublyLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj -MF CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\main.c.obj.d -o CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\main.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\DoublyLinkedList\main.c
+CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj: CMakeFiles/DoublyLinkedList.dir/flags.make
+CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj: C:/Users/08184638132/Documents/uft/algorithms/apps/doubly_linked_list.c
+CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj: CMakeFiles/DoublyLinkedList.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj -MF CMakeFiles\DoublyLinkedList.dir\apps\doubly_linked_list.c.obj.d -o CMakeFiles\DoublyLinkedList.dir\apps\doubly_linked_list.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\apps\doubly_linked_list.c
 
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\DoublyLinkedList\main.c > CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\main.c.i
+CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\apps\doubly_linked_list.c > CMakeFiles\DoublyLinkedList.dir\apps\doubly_linked_list.c.i
 
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\DoublyLinkedList\main.c -o CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\main.c.s
-
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj: CMakeFiles/DoublyLinkedList.dir/flags.make
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj: C:/Users/08184638132/Documents/uft/algorithms/DoublyLinkedList/DoublyLinkedList.c
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj: CMakeFiles/DoublyLinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj -MF CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\DoublyLinkedList.c.obj.d -o CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\DoublyLinkedList.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\DoublyLinkedList\DoublyLinkedList.c
-
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\DoublyLinkedList\DoublyLinkedList.c > CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\DoublyLinkedList.c.i
-
-CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\DoublyLinkedList\DoublyLinkedList.c -o CMakeFiles\DoublyLinkedList.dir\DoublyLinkedList\DoublyLinkedList.c.s
+CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\apps\doubly_linked_list.c -o CMakeFiles\DoublyLinkedList.dir\apps\doubly_linked_list.c.s
 
 # Object files for target DoublyLinkedList
 DoublyLinkedList_OBJECTS = \
-"CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj" \
-"CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj"
+"CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj"
 
 # External object files for target DoublyLinkedList
 DoublyLinkedList_EXTERNAL_OBJECTS =
 
-DoublyLinkedList.exe: CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj
-DoublyLinkedList.exe: CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj
+DoublyLinkedList.exe: CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj
 DoublyLinkedList.exe: CMakeFiles/DoublyLinkedList.dir/build.make
+DoublyLinkedList.exe: libDoublyLinkedListLib.a
 DoublyLinkedList.exe: CMakeFiles/DoublyLinkedList.dir/linkLibs.rsp
 DoublyLinkedList.exe: CMakeFiles/DoublyLinkedList.dir/objects1.rsp
 DoublyLinkedList.exe: CMakeFiles/DoublyLinkedList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable DoublyLinkedList.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable DoublyLinkedList.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DoublyLinkedList.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

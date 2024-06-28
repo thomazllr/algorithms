@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.obj"
-  "CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.obj.d"
-  "CMakeFiles/StaticStack.dir/StaticStack/main.c.obj"
-  "CMakeFiles/StaticStack.dir/StaticStack/main.c.obj.d"
+  "CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj"
+  "CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj.d"
   "StaticStack.exe"
   "StaticStack.exe.manifest"
   "StaticStack.pdb"

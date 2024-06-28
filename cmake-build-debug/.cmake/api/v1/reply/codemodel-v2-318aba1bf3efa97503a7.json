@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algorithms",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CircularLinkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CircularLinkedList-Debug-6c7bd604343ecb42f82a.json",
+					"name" : "CircularLinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CircularLinkedListLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CircularLinkedListLib-Debug-da8f9378e7d77f6dee6c.json",
+					"name" : "CircularLinkedListLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DoublyLinkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DoublyLinkedList-Debug-c1027fa6b23a60e1ac9a.json",
+					"name" : "DoublyLinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DoublyLinkedListLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DoublyLinkedListLib-Debug-123ce490f92960284981.json",
+					"name" : "DoublyLinkedListLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EDMundo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EDMundo-Debug-3c394974fd5351dabf53.json",
+					"name" : "EDMundo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EDPILHA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EDPILHA-Debug-1f967ddfe11da8bcf799.json",
+					"name" : "EDPILHA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Igualdade::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Igualdade-Debug-098b865e039ac07bc72c.json",
+					"name" : "Igualdade",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkedList-Debug-b6988e92397894da1d99.json",
+					"name" : "LinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkedListLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkedListLib-Debug-2fe574b95fb4326f3481.json",
+					"name" : "LinkedListLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack-Debug-74eadac04457bec04b2b.json",
+					"name" : "Stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StaticStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StaticStack-Debug-694e96738b479777b8c6.json",
+					"name" : "StaticStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StaticStackLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StaticStackLib-Debug-1b913db5df509c5298d4.json",
+					"name" : "StaticStackLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToninhoTrocador::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToninhoTrocador-Debug-9c30a5f0a2c49c9c4e8b.json",
+					"name" : "ToninhoTrocador",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ToninhoTrocadorLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ToninhoTrocadorLib-Debug-a97405ebcbd5fff22574.json",
+					"name" : "ToninhoTrocadorLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithms-Debug-66c1fe18c7984e96e445.json",
+					"name" : "algorithms",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/08184638132/Documents/uft/algorithms/cmake-build-debug",
+		"source" : "C:/Users/08184638132/Documents/uft/algorithms"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj"
-  "CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj.d"
-  "CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj"
-  "CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj.d"
+  "CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj"
+  "CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj.d"
   "ToninhoTrocador.exe"
   "ToninhoTrocador.exe.manifest"
   "ToninhoTrocador.pdb"

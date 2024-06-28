@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj"
-  "CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj.d"
-  "CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj"
-  "CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj.d"
+  "CMakeFiles/Igualdade.dir/apps/igualdade.c.obj"
+  "CMakeFiles/Igualdade.dir/apps/igualdade.c.obj.d"
   "Igualdade.exe"
   "Igualdade.exe.manifest"
   "Igualdade.pdb"

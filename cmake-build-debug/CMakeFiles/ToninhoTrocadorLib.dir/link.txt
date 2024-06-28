@@ -1,0 +1,2 @@
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc libToninhoTrocadorLib.a CMakeFiles/ToninhoTrocadorLib.dir/src/LinkedList.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ranlib.exe libToninhoTrocadorLib.a

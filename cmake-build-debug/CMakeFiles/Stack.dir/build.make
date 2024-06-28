@@ -68,65 +68,49 @@ include CMakeFiles/Stack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Stack.dir/flags.make
 
-CMakeFiles/Stack.dir/Stack/main.c.obj: CMakeFiles/Stack.dir/flags.make
-CMakeFiles/Stack.dir/Stack/main.c.obj: C:/Users/08184638132/Documents/uft/algorithms/Stack/main.c
-CMakeFiles/Stack.dir/Stack/main.c.obj: CMakeFiles/Stack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Stack.dir/Stack/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Stack.dir/Stack/main.c.obj -MF CMakeFiles\Stack.dir\Stack\main.c.obj.d -o CMakeFiles\Stack.dir\Stack\main.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\Stack\main.c
+CMakeFiles/Stack.dir/apps/stack_app.c.obj: CMakeFiles/Stack.dir/flags.make
+CMakeFiles/Stack.dir/apps/stack_app.c.obj: C:/Users/08184638132/Documents/uft/algorithms/apps/stack_app.c
+CMakeFiles/Stack.dir/apps/stack_app.c.obj: CMakeFiles/Stack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Stack.dir/apps/stack_app.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Stack.dir/apps/stack_app.c.obj -MF CMakeFiles\Stack.dir\apps\stack_app.c.obj.d -o CMakeFiles\Stack.dir\apps\stack_app.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\apps\stack_app.c
 
-CMakeFiles/Stack.dir/Stack/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Stack.dir/Stack/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\Stack\main.c > CMakeFiles\Stack.dir\Stack\main.c.i
+CMakeFiles/Stack.dir/apps/stack_app.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Stack.dir/apps/stack_app.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\apps\stack_app.c > CMakeFiles\Stack.dir\apps\stack_app.c.i
 
-CMakeFiles/Stack.dir/Stack/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Stack.dir/Stack/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\Stack\main.c -o CMakeFiles\Stack.dir\Stack\main.c.s
+CMakeFiles/Stack.dir/apps/stack_app.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Stack.dir/apps/stack_app.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\apps\stack_app.c -o CMakeFiles\Stack.dir\apps\stack_app.c.s
 
-CMakeFiles/Stack.dir/Stack/Stack.c.obj: CMakeFiles/Stack.dir/flags.make
-CMakeFiles/Stack.dir/Stack/Stack.c.obj: C:/Users/08184638132/Documents/uft/algorithms/Stack/Stack.c
-CMakeFiles/Stack.dir/Stack/Stack.c.obj: CMakeFiles/Stack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Stack.dir/Stack/Stack.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Stack.dir/Stack/Stack.c.obj -MF CMakeFiles\Stack.dir\Stack\Stack.c.obj.d -o CMakeFiles\Stack.dir\Stack\Stack.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\Stack\Stack.c
+CMakeFiles/Stack.dir/src/Stack.c.obj: CMakeFiles/Stack.dir/flags.make
+CMakeFiles/Stack.dir/src/Stack.c.obj: C:/Users/08184638132/Documents/uft/algorithms/src/Stack.c
+CMakeFiles/Stack.dir/src/Stack.c.obj: CMakeFiles/Stack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Stack.dir/src/Stack.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Stack.dir/src/Stack.c.obj -MF CMakeFiles\Stack.dir\src\Stack.c.obj.d -o CMakeFiles\Stack.dir\src\Stack.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\src\Stack.c
 
-CMakeFiles/Stack.dir/Stack/Stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Stack.dir/Stack/Stack.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\Stack\Stack.c > CMakeFiles\Stack.dir\Stack\Stack.c.i
+CMakeFiles/Stack.dir/src/Stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Stack.dir/src/Stack.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\src\Stack.c > CMakeFiles\Stack.dir\src\Stack.c.i
 
-CMakeFiles/Stack.dir/Stack/Stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Stack.dir/Stack/Stack.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\Stack\Stack.c -o CMakeFiles\Stack.dir\Stack\Stack.c.s
-
-CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.obj: CMakeFiles/Stack.dir/flags.make
-CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.obj: C:/Users/08184638132/Documents/uft/algorithms/DoublyLinkedList/DoublyLinkedList.c
-CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.obj: CMakeFiles/Stack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.obj -MF CMakeFiles\Stack.dir\DoublyLinkedList\DoublyLinkedList.c.obj.d -o CMakeFiles\Stack.dir\DoublyLinkedList\DoublyLinkedList.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\DoublyLinkedList\DoublyLinkedList.c
-
-CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\DoublyLinkedList\DoublyLinkedList.c > CMakeFiles\Stack.dir\DoublyLinkedList\DoublyLinkedList.c.i
-
-CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\DoublyLinkedList\DoublyLinkedList.c -o CMakeFiles\Stack.dir\DoublyLinkedList\DoublyLinkedList.c.s
+CMakeFiles/Stack.dir/src/Stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Stack.dir/src/Stack.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\src\Stack.c -o CMakeFiles\Stack.dir\src\Stack.c.s
 
 # Object files for target Stack
 Stack_OBJECTS = \
-"CMakeFiles/Stack.dir/Stack/main.c.obj" \
-"CMakeFiles/Stack.dir/Stack/Stack.c.obj" \
-"CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.obj"
+"CMakeFiles/Stack.dir/apps/stack_app.c.obj" \
+"CMakeFiles/Stack.dir/src/Stack.c.obj"
 
 # External object files for target Stack
 Stack_EXTERNAL_OBJECTS =
 
-Stack.exe: CMakeFiles/Stack.dir/Stack/main.c.obj
-Stack.exe: CMakeFiles/Stack.dir/Stack/Stack.c.obj
-Stack.exe: CMakeFiles/Stack.dir/DoublyLinkedList/DoublyLinkedList.c.obj
+Stack.exe: CMakeFiles/Stack.dir/apps/stack_app.c.obj
+Stack.exe: CMakeFiles/Stack.dir/src/Stack.c.obj
 Stack.exe: CMakeFiles/Stack.dir/build.make
 Stack.exe: CMakeFiles/Stack.dir/linkLibs.rsp
 Stack.exe: CMakeFiles/Stack.dir/objects1.rsp
 Stack.exe: CMakeFiles/Stack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Stack.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Stack.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Stack.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

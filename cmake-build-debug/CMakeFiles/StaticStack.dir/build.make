@@ -68,49 +68,34 @@ include CMakeFiles/StaticStack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/StaticStack.dir/flags.make
 
-CMakeFiles/StaticStack.dir/StaticStack/main.c.obj: CMakeFiles/StaticStack.dir/flags.make
-CMakeFiles/StaticStack.dir/StaticStack/main.c.obj: C:/Users/08184638132/Documents/uft/algorithms/StaticStack/main.c
-CMakeFiles/StaticStack.dir/StaticStack/main.c.obj: CMakeFiles/StaticStack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/StaticStack.dir/StaticStack/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/StaticStack.dir/StaticStack/main.c.obj -MF CMakeFiles\StaticStack.dir\StaticStack\main.c.obj.d -o CMakeFiles\StaticStack.dir\StaticStack\main.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\StaticStack\main.c
+CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj: CMakeFiles/StaticStack.dir/flags.make
+CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj: C:/Users/08184638132/Documents/uft/algorithms/apps/stack_stack_app.c
+CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj: CMakeFiles/StaticStack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj -MF CMakeFiles\StaticStack.dir\apps\stack_stack_app.c.obj.d -o CMakeFiles\StaticStack.dir\apps\stack_stack_app.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\apps\stack_stack_app.c
 
-CMakeFiles/StaticStack.dir/StaticStack/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/StaticStack.dir/StaticStack/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\StaticStack\main.c > CMakeFiles\StaticStack.dir\StaticStack\main.c.i
+CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\apps\stack_stack_app.c > CMakeFiles\StaticStack.dir\apps\stack_stack_app.c.i
 
-CMakeFiles/StaticStack.dir/StaticStack/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/StaticStack.dir/StaticStack/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\StaticStack\main.c -o CMakeFiles\StaticStack.dir\StaticStack\main.c.s
-
-CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.obj: CMakeFiles/StaticStack.dir/flags.make
-CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.obj: C:/Users/08184638132/Documents/uft/algorithms/StaticStack/StaticStack.c
-CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.obj: CMakeFiles/StaticStack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.obj -MF CMakeFiles\StaticStack.dir\StaticStack\StaticStack.c.obj.d -o CMakeFiles\StaticStack.dir\StaticStack\StaticStack.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\StaticStack\StaticStack.c
-
-CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\StaticStack\StaticStack.c > CMakeFiles\StaticStack.dir\StaticStack\StaticStack.c.i
-
-CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\StaticStack\StaticStack.c -o CMakeFiles\StaticStack.dir\StaticStack\StaticStack.c.s
+CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\apps\stack_stack_app.c -o CMakeFiles\StaticStack.dir\apps\stack_stack_app.c.s
 
 # Object files for target StaticStack
 StaticStack_OBJECTS = \
-"CMakeFiles/StaticStack.dir/StaticStack/main.c.obj" \
-"CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.obj"
+"CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj"
 
 # External object files for target StaticStack
 StaticStack_EXTERNAL_OBJECTS =
 
-StaticStack.exe: CMakeFiles/StaticStack.dir/StaticStack/main.c.obj
-StaticStack.exe: CMakeFiles/StaticStack.dir/StaticStack/StaticStack.c.obj
+StaticStack.exe: CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj
 StaticStack.exe: CMakeFiles/StaticStack.dir/build.make
+StaticStack.exe: libStaticStackLib.a
 StaticStack.exe: CMakeFiles/StaticStack.dir/linkLibs.rsp
 StaticStack.exe: CMakeFiles/StaticStack.dir/objects1.rsp
 StaticStack.exe: CMakeFiles/StaticStack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable StaticStack.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable StaticStack.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\StaticStack.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

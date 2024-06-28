@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/08184638132/Documents/uft/algorithms/LinkedList/LinkedList.c" "CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj" "gcc" "CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj.d"
-  "C:/Users/08184638132/Documents/uft/algorithms/LinkedList/main.c" "CMakeFiles/LinkedList.dir/LinkedList/main.c.obj" "gcc" "CMakeFiles/LinkedList.dir/LinkedList/main.c.obj.d"
+  "C:/Users/08184638132/Documents/uft/algorithms/apps/linked_list.c" "CMakeFiles/LinkedList.dir/apps/linked_list.c.obj" "gcc" "CMakeFiles/LinkedList.dir/apps/linked_list.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

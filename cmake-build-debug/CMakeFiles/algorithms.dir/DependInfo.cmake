@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/08184638132/Documents/uft/algorithms/Stack/main.c" "CMakeFiles/algorithms.dir/Stack/main.c.obj" "gcc" "CMakeFiles/algorithms.dir/Stack/main.c.obj.d"
   "C:/Users/08184638132/Documents/uft/algorithms/main.c" "CMakeFiles/algorithms.dir/main.c.obj" "gcc" "CMakeFiles/algorithms.dir/main.c.obj.d"
   )
 

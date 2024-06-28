@@ -68,49 +68,34 @@ include CMakeFiles/ToninhoTrocador.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ToninhoTrocador.dir/flags.make
 
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj: CMakeFiles/ToninhoTrocador.dir/flags.make
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj: C:/Users/08184638132/Documents/uft/algorithms/LinkedList/ToninhoTrocador/main.c
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj: CMakeFiles/ToninhoTrocador.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj -MF CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\main.c.obj.d -o CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\main.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\LinkedList\ToninhoTrocador\main.c
+CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj: CMakeFiles/ToninhoTrocador.dir/flags.make
+CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj: C:/Users/08184638132/Documents/uft/algorithms/apps/toninho_trocador.c
+CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj: CMakeFiles/ToninhoTrocador.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj -MF CMakeFiles\ToninhoTrocador.dir\apps\toninho_trocador.c.obj.d -o CMakeFiles\ToninhoTrocador.dir\apps\toninho_trocador.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\apps\toninho_trocador.c
 
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\LinkedList\ToninhoTrocador\main.c > CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\main.c.i
+CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\apps\toninho_trocador.c > CMakeFiles\ToninhoTrocador.dir\apps\toninho_trocador.c.i
 
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\LinkedList\ToninhoTrocador\main.c -o CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\main.c.s
-
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj: CMakeFiles/ToninhoTrocador.dir/flags.make
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj: C:/Users/08184638132/Documents/uft/algorithms/LinkedList/ToninhoTrocador/LinkedList.c
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj: CMakeFiles/ToninhoTrocador.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj -MF CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\LinkedList.c.obj.d -o CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\LinkedList.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\LinkedList\ToninhoTrocador\LinkedList.c
-
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\LinkedList\ToninhoTrocador\LinkedList.c > CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\LinkedList.c.i
-
-CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\LinkedList\ToninhoTrocador\LinkedList.c -o CMakeFiles\ToninhoTrocador.dir\LinkedList\ToninhoTrocador\LinkedList.c.s
+CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\apps\toninho_trocador.c -o CMakeFiles\ToninhoTrocador.dir\apps\toninho_trocador.c.s
 
 # Object files for target ToninhoTrocador
 ToninhoTrocador_OBJECTS = \
-"CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj" \
-"CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj"
+"CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj"
 
 # External object files for target ToninhoTrocador
 ToninhoTrocador_EXTERNAL_OBJECTS =
 
-ToninhoTrocador.exe: CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj
-ToninhoTrocador.exe: CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj
+ToninhoTrocador.exe: CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj
 ToninhoTrocador.exe: CMakeFiles/ToninhoTrocador.dir/build.make
+ToninhoTrocador.exe: libToninhoTrocadorLib.a
 ToninhoTrocador.exe: CMakeFiles/ToninhoTrocador.dir/linkLibs.rsp
 ToninhoTrocador.exe: CMakeFiles/ToninhoTrocador.dir/objects1.rsp
 ToninhoTrocador.exe: CMakeFiles/ToninhoTrocador.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ToninhoTrocador.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ToninhoTrocador.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ToninhoTrocador.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

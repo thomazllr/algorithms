@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algorithms.dir/Stack/main.c.obj"
-  "CMakeFiles/algorithms.dir/Stack/main.c.obj.d"
   "CMakeFiles/algorithms.dir/main.c.obj"
   "CMakeFiles/algorithms.dir/main.c.obj.d"
   "algorithms.exe"

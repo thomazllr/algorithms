@@ -1,17 +1,15 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/EDPilha.dir/DoublyLinkedList/DoublyLinkedList.c.obj"
-  "CMakeFiles/EDPilha.dir/DoublyLinkedList/DoublyLinkedList.c.obj.d"
-  "CMakeFiles/EDPilha.dir/Stack/EDPilha/Stack.c.obj"
-  "CMakeFiles/EDPilha.dir/Stack/EDPilha/Stack.c.obj.d"
-  "CMakeFiles/EDPilha.dir/Stack/EDPilha/main.c.obj"
-  "CMakeFiles/EDPilha.dir/Stack/EDPilha/main.c.obj.d"
-  "EDPilha.exe"
-  "EDPilha.exe.manifest"
-  "EDPilha.pdb"
-  "libEDPilha.dll.a"
+  "CMakeFiles/EDPILHA.dir/apps/stack_digits_app.c.obj"
+  "CMakeFiles/EDPILHA.dir/apps/stack_digits_app.c.obj.d"
+  "CMakeFiles/EDPILHA.dir/src/StackDigits.c.obj"
+  "CMakeFiles/EDPILHA.dir/src/StackDigits.c.obj.d"
+  "EDPILHA.exe"
+  "EDPILHA.exe.manifest"
+  "EDPILHA.pdb"
+  "libEDPILHA.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang C)
-  include(CMakeFiles/EDPilha.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/EDPILHA.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -68,49 +68,34 @@ include CMakeFiles/EDMundo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/EDMundo.dir/flags.make
 
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj: CMakeFiles/EDMundo.dir/flags.make
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj: C:/Users/08184638132/Documents/uft/algorithms/CircularLinkedList/EDMundo/main.c
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj: CMakeFiles/EDMundo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj -MF CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\main.c.obj.d -o CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\main.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\EDMundo\main.c
+CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj: CMakeFiles/EDMundo.dir/flags.make
+CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj: C:/Users/08184638132/Documents/uft/algorithms/apps/ed_mundo.c
+CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj: CMakeFiles/EDMundo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj -MF CMakeFiles\EDMundo.dir\apps\ed_mundo.c.obj.d -o CMakeFiles\EDMundo.dir\apps\ed_mundo.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\apps\ed_mundo.c
 
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\EDMundo\main.c > CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\main.c.i
+CMakeFiles/EDMundo.dir/apps/ed_mundo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/EDMundo.dir/apps/ed_mundo.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\apps\ed_mundo.c > CMakeFiles\EDMundo.dir\apps\ed_mundo.c.i
 
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\EDMundo\main.c -o CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\main.c.s
-
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj: CMakeFiles/EDMundo.dir/flags.make
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj: C:/Users/08184638132/Documents/uft/algorithms/CircularLinkedList/EDMundo/CircularLinkedList.c
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj: CMakeFiles/EDMundo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj -MF CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\CircularLinkedList.c.obj.d -o CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\CircularLinkedList.c.obj -c C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\EDMundo\CircularLinkedList.c
-
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\EDMundo\CircularLinkedList.c > CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\CircularLinkedList.c.i
-
-CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\CircularLinkedList\EDMundo\CircularLinkedList.c -o CMakeFiles\EDMundo.dir\CircularLinkedList\EDMundo\CircularLinkedList.c.s
+CMakeFiles/EDMundo.dir/apps/ed_mundo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/EDMundo.dir/apps/ed_mundo.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\08184638132\Documents\uft\algorithms\apps\ed_mundo.c -o CMakeFiles\EDMundo.dir\apps\ed_mundo.c.s
 
 # Object files for target EDMundo
 EDMundo_OBJECTS = \
-"CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj" \
-"CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj"
+"CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj"
 
 # External object files for target EDMundo
 EDMundo_EXTERNAL_OBJECTS =
 
-EDMundo.exe: CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj
-EDMundo.exe: CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj
+EDMundo.exe: CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj
 EDMundo.exe: CMakeFiles/EDMundo.dir/build.make
+EDMundo.exe: libCircularLinkedListLib.a
 EDMundo.exe: CMakeFiles/EDMundo.dir/linkLibs.rsp
 EDMundo.exe: CMakeFiles/EDMundo.dir/objects1.rsp
 EDMundo.exe: CMakeFiles/EDMundo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable EDMundo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\08184638132\Documents\uft\algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable EDMundo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EDMundo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

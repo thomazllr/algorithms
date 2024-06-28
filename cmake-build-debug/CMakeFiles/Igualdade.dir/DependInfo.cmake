@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/08184638132/Documents/uft/algorithms/CircularLinkedList/Igualdade/CircularLinkedList.c" "CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj" "gcc" "CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/CircularLinkedList.c.obj.d"
-  "C:/Users/08184638132/Documents/uft/algorithms/CircularLinkedList/Igualdade/main.c" "CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj" "gcc" "CMakeFiles/Igualdade.dir/CircularLinkedList/Igualdade/main.c.obj.d"
+  "C:/Users/08184638132/Documents/uft/algorithms/apps/igualdade.c" "CMakeFiles/Igualdade.dir/apps/igualdade.c.obj" "gcc" "CMakeFiles/Igualdade.dir/apps/igualdade.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

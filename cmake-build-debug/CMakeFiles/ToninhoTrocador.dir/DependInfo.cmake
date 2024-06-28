@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/08184638132/Documents/uft/algorithms/LinkedList/ToninhoTrocador/LinkedList.c" "CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj" "gcc" "CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj.d"
-  "C:/Users/08184638132/Documents/uft/algorithms/LinkedList/ToninhoTrocador/main.c" "CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj" "gcc" "CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj.d"
+  "C:/Users/08184638132/Documents/uft/algorithms/apps/toninho_trocador.c" "CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj" "gcc" "CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

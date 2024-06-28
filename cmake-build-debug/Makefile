@@ -116,6 +116,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named LinkedListLib
+
+# Build rule for target.
+LinkedListLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkedListLib
+.PHONY : LinkedListLib
+
+# fast build rule for target.
+LinkedListLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListLib.dir\build.make CMakeFiles/LinkedListLib.dir/build
+.PHONY : LinkedListLib/fast
+
+#=============================================================================
+# Target rules for targets named StaticStackLib
+
+# Build rule for target.
+StaticStackLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StaticStackLib
+.PHONY : StaticStackLib
+
+# fast build rule for target.
+StaticStackLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStackLib.dir\build.make CMakeFiles/StaticStackLib.dir/build
+.PHONY : StaticStackLib/fast
+
+#=============================================================================
+# Target rules for targets named ToninhoTrocadorLib
+
+# Build rule for target.
+ToninhoTrocadorLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ToninhoTrocadorLib
+.PHONY : ToninhoTrocadorLib
+
+# fast build rule for target.
+ToninhoTrocadorLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocadorLib.dir\build.make CMakeFiles/ToninhoTrocadorLib.dir/build
+.PHONY : ToninhoTrocadorLib/fast
+
+#=============================================================================
+# Target rules for targets named CircularLinkedListLib
+
+# Build rule for target.
+CircularLinkedListLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CircularLinkedListLib
+.PHONY : CircularLinkedListLib
+
+# fast build rule for target.
+CircularLinkedListLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedListLib.dir\build.make CMakeFiles/CircularLinkedListLib.dir/build
+.PHONY : CircularLinkedListLib/fast
+
+#=============================================================================
+# Target rules for targets named DoublyLinkedListLib
+
+# Build rule for target.
+DoublyLinkedListLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DoublyLinkedListLib
+.PHONY : DoublyLinkedListLib
+
+# fast build rule for target.
+DoublyLinkedListLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedListLib.dir\build.make CMakeFiles/DoublyLinkedListLib.dir/build
+.PHONY : DoublyLinkedListLib/fast
+
+#=============================================================================
 # Target rules for targets named algorithms
 
 # Build rule for target.
@@ -142,17 +207,17 @@ LinkedList/fast:
 .PHONY : LinkedList/fast
 
 #=============================================================================
-# Target rules for targets named Stack
+# Target rules for targets named StaticStack
 
 # Build rule for target.
-Stack: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Stack
-.PHONY : Stack
+StaticStack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StaticStack
+.PHONY : StaticStack
 
 # fast build rule for target.
-Stack/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/build
-.PHONY : Stack/fast
+StaticStack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStack.dir\build.make CMakeFiles/StaticStack.dir/build
+.PHONY : StaticStack/fast
 
 #=============================================================================
 # Target rules for targets named ToninhoTrocador
@@ -193,245 +258,273 @@ DoublyLinkedList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/build
 .PHONY : DoublyLinkedList/fast
 
-CircularLinkedList/CircularLinkedList.obj: CircularLinkedList/CircularLinkedList.c.obj
-.PHONY : CircularLinkedList/CircularLinkedList.obj
+#=============================================================================
+# Target rules for targets named EDMundo
+
+# Build rule for target.
+EDMundo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EDMundo
+.PHONY : EDMundo
+
+# fast build rule for target.
+EDMundo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDMundo.dir\build.make CMakeFiles/EDMundo.dir/build
+.PHONY : EDMundo/fast
+
+#=============================================================================
+# Target rules for targets named Igualdade
+
+# Build rule for target.
+Igualdade: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Igualdade
+.PHONY : Igualdade
+
+# fast build rule for target.
+Igualdade/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Igualdade.dir\build.make CMakeFiles/Igualdade.dir/build
+.PHONY : Igualdade/fast
+
+#=============================================================================
+# Target rules for targets named Stack
+
+# Build rule for target.
+Stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Stack
+.PHONY : Stack
+
+# fast build rule for target.
+Stack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/build
+.PHONY : Stack/fast
+
+#=============================================================================
+# Target rules for targets named EDPILHA
+
+# Build rule for target.
+EDPILHA: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EDPILHA
+.PHONY : EDPILHA
+
+# fast build rule for target.
+EDPILHA/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/build
+.PHONY : EDPILHA/fast
+
+apps/circular_linked_list.obj: apps/circular_linked_list.c.obj
+.PHONY : apps/circular_linked_list.obj
 
 # target to build an object file
-CircularLinkedList/CircularLinkedList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedList.dir\build.make CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.obj
-.PHONY : CircularLinkedList/CircularLinkedList.c.obj
+apps/circular_linked_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedList.dir\build.make CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.obj
+.PHONY : apps/circular_linked_list.c.obj
 
-CircularLinkedList/CircularLinkedList.i: CircularLinkedList/CircularLinkedList.c.i
-.PHONY : CircularLinkedList/CircularLinkedList.i
+apps/circular_linked_list.i: apps/circular_linked_list.c.i
+.PHONY : apps/circular_linked_list.i
 
 # target to preprocess a source file
-CircularLinkedList/CircularLinkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedList.dir\build.make CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.i
-.PHONY : CircularLinkedList/CircularLinkedList.c.i
+apps/circular_linked_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedList.dir\build.make CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.i
+.PHONY : apps/circular_linked_list.c.i
 
-CircularLinkedList/CircularLinkedList.s: CircularLinkedList/CircularLinkedList.c.s
-.PHONY : CircularLinkedList/CircularLinkedList.s
+apps/circular_linked_list.s: apps/circular_linked_list.c.s
+.PHONY : apps/circular_linked_list.s
 
 # target to generate assembly for a file
-CircularLinkedList/CircularLinkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedList.dir\build.make CMakeFiles/CircularLinkedList.dir/CircularLinkedList/CircularLinkedList.c.s
-.PHONY : CircularLinkedList/CircularLinkedList.c.s
+apps/circular_linked_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedList.dir\build.make CMakeFiles/CircularLinkedList.dir/apps/circular_linked_list.c.s
+.PHONY : apps/circular_linked_list.c.s
 
-CircularLinkedList/main.obj: CircularLinkedList/main.c.obj
-.PHONY : CircularLinkedList/main.obj
+apps/doubly_linked_list.obj: apps/doubly_linked_list.c.obj
+.PHONY : apps/doubly_linked_list.obj
 
 # target to build an object file
-CircularLinkedList/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedList.dir\build.make CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.obj
-.PHONY : CircularLinkedList/main.c.obj
+apps/doubly_linked_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.obj
+.PHONY : apps/doubly_linked_list.c.obj
 
-CircularLinkedList/main.i: CircularLinkedList/main.c.i
-.PHONY : CircularLinkedList/main.i
+apps/doubly_linked_list.i: apps/doubly_linked_list.c.i
+.PHONY : apps/doubly_linked_list.i
 
 # target to preprocess a source file
-CircularLinkedList/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedList.dir\build.make CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.i
-.PHONY : CircularLinkedList/main.c.i
+apps/doubly_linked_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.i
+.PHONY : apps/doubly_linked_list.c.i
 
-CircularLinkedList/main.s: CircularLinkedList/main.c.s
-.PHONY : CircularLinkedList/main.s
+apps/doubly_linked_list.s: apps/doubly_linked_list.c.s
+.PHONY : apps/doubly_linked_list.s
 
 # target to generate assembly for a file
-CircularLinkedList/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedList.dir\build.make CMakeFiles/CircularLinkedList.dir/CircularLinkedList/main.c.s
-.PHONY : CircularLinkedList/main.c.s
+apps/doubly_linked_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/apps/doubly_linked_list.c.s
+.PHONY : apps/doubly_linked_list.c.s
 
-DoublyLinkedList/DoublyLinkedList.obj: DoublyLinkedList/DoublyLinkedList.c.obj
-.PHONY : DoublyLinkedList/DoublyLinkedList.obj
+apps/ed_mundo.obj: apps/ed_mundo.c.obj
+.PHONY : apps/ed_mundo.obj
 
 # target to build an object file
-DoublyLinkedList/DoublyLinkedList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.obj
-.PHONY : DoublyLinkedList/DoublyLinkedList.c.obj
+apps/ed_mundo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDMundo.dir\build.make CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj
+.PHONY : apps/ed_mundo.c.obj
 
-DoublyLinkedList/DoublyLinkedList.i: DoublyLinkedList/DoublyLinkedList.c.i
-.PHONY : DoublyLinkedList/DoublyLinkedList.i
+apps/ed_mundo.i: apps/ed_mundo.c.i
+.PHONY : apps/ed_mundo.i
 
 # target to preprocess a source file
-DoublyLinkedList/DoublyLinkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.i
-.PHONY : DoublyLinkedList/DoublyLinkedList.c.i
+apps/ed_mundo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDMundo.dir\build.make CMakeFiles/EDMundo.dir/apps/ed_mundo.c.i
+.PHONY : apps/ed_mundo.c.i
 
-DoublyLinkedList/DoublyLinkedList.s: DoublyLinkedList/DoublyLinkedList.c.s
-.PHONY : DoublyLinkedList/DoublyLinkedList.s
+apps/ed_mundo.s: apps/ed_mundo.c.s
+.PHONY : apps/ed_mundo.s
 
 # target to generate assembly for a file
-DoublyLinkedList/DoublyLinkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/DoublyLinkedList.c.s
-.PHONY : DoublyLinkedList/DoublyLinkedList.c.s
+apps/ed_mundo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDMundo.dir\build.make CMakeFiles/EDMundo.dir/apps/ed_mundo.c.s
+.PHONY : apps/ed_mundo.c.s
 
-DoublyLinkedList/main.obj: DoublyLinkedList/main.c.obj
-.PHONY : DoublyLinkedList/main.obj
+apps/igualdade.obj: apps/igualdade.c.obj
+.PHONY : apps/igualdade.obj
 
 # target to build an object file
-DoublyLinkedList/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.obj
-.PHONY : DoublyLinkedList/main.c.obj
+apps/igualdade.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Igualdade.dir\build.make CMakeFiles/Igualdade.dir/apps/igualdade.c.obj
+.PHONY : apps/igualdade.c.obj
 
-DoublyLinkedList/main.i: DoublyLinkedList/main.c.i
-.PHONY : DoublyLinkedList/main.i
+apps/igualdade.i: apps/igualdade.c.i
+.PHONY : apps/igualdade.i
 
 # target to preprocess a source file
-DoublyLinkedList/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.i
-.PHONY : DoublyLinkedList/main.c.i
+apps/igualdade.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Igualdade.dir\build.make CMakeFiles/Igualdade.dir/apps/igualdade.c.i
+.PHONY : apps/igualdade.c.i
 
-DoublyLinkedList/main.s: DoublyLinkedList/main.c.s
-.PHONY : DoublyLinkedList/main.s
+apps/igualdade.s: apps/igualdade.c.s
+.PHONY : apps/igualdade.s
 
 # target to generate assembly for a file
-DoublyLinkedList/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedList.dir\build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList/main.c.s
-.PHONY : DoublyLinkedList/main.c.s
+apps/igualdade.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Igualdade.dir\build.make CMakeFiles/Igualdade.dir/apps/igualdade.c.s
+.PHONY : apps/igualdade.c.s
 
-LinkedList/LinkedList.obj: LinkedList/LinkedList.c.obj
-.PHONY : LinkedList/LinkedList.obj
+apps/linked_list.obj: apps/linked_list.c.obj
+.PHONY : apps/linked_list.obj
 
 # target to build an object file
-LinkedList/LinkedList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.obj
-.PHONY : LinkedList/LinkedList.c.obj
+apps/linked_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/apps/linked_list.c.obj
+.PHONY : apps/linked_list.c.obj
 
-LinkedList/LinkedList.i: LinkedList/LinkedList.c.i
-.PHONY : LinkedList/LinkedList.i
+apps/linked_list.i: apps/linked_list.c.i
+.PHONY : apps/linked_list.i
 
 # target to preprocess a source file
-LinkedList/LinkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.i
-.PHONY : LinkedList/LinkedList.c.i
+apps/linked_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/apps/linked_list.c.i
+.PHONY : apps/linked_list.c.i
 
-LinkedList/LinkedList.s: LinkedList/LinkedList.c.s
-.PHONY : LinkedList/LinkedList.s
+apps/linked_list.s: apps/linked_list.c.s
+.PHONY : apps/linked_list.s
 
 # target to generate assembly for a file
-LinkedList/LinkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/LinkedList/LinkedList.c.s
-.PHONY : LinkedList/LinkedList.c.s
+apps/linked_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/apps/linked_list.c.s
+.PHONY : apps/linked_list.c.s
 
-LinkedList/ToninhoTrocador/LinkedList.obj: LinkedList/ToninhoTrocador/LinkedList.c.obj
-.PHONY : LinkedList/ToninhoTrocador/LinkedList.obj
+apps/stack_app.obj: apps/stack_app.c.obj
+.PHONY : apps/stack_app.obj
 
 # target to build an object file
-LinkedList/ToninhoTrocador/LinkedList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.obj
-.PHONY : LinkedList/ToninhoTrocador/LinkedList.c.obj
+apps/stack_app.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/apps/stack_app.c.obj
+.PHONY : apps/stack_app.c.obj
 
-LinkedList/ToninhoTrocador/LinkedList.i: LinkedList/ToninhoTrocador/LinkedList.c.i
-.PHONY : LinkedList/ToninhoTrocador/LinkedList.i
+apps/stack_app.i: apps/stack_app.c.i
+.PHONY : apps/stack_app.i
 
 # target to preprocess a source file
-LinkedList/ToninhoTrocador/LinkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.i
-.PHONY : LinkedList/ToninhoTrocador/LinkedList.c.i
+apps/stack_app.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/apps/stack_app.c.i
+.PHONY : apps/stack_app.c.i
 
-LinkedList/ToninhoTrocador/LinkedList.s: LinkedList/ToninhoTrocador/LinkedList.c.s
-.PHONY : LinkedList/ToninhoTrocador/LinkedList.s
+apps/stack_app.s: apps/stack_app.c.s
+.PHONY : apps/stack_app.s
 
 # target to generate assembly for a file
-LinkedList/ToninhoTrocador/LinkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/LinkedList.c.s
-.PHONY : LinkedList/ToninhoTrocador/LinkedList.c.s
+apps/stack_app.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/apps/stack_app.c.s
+.PHONY : apps/stack_app.c.s
 
-LinkedList/ToninhoTrocador/main.obj: LinkedList/ToninhoTrocador/main.c.obj
-.PHONY : LinkedList/ToninhoTrocador/main.obj
+apps/stack_digits_app.obj: apps/stack_digits_app.c.obj
+.PHONY : apps/stack_digits_app.obj
 
 # target to build an object file
-LinkedList/ToninhoTrocador/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.obj
-.PHONY : LinkedList/ToninhoTrocador/main.c.obj
+apps/stack_digits_app.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/apps/stack_digits_app.c.obj
+.PHONY : apps/stack_digits_app.c.obj
 
-LinkedList/ToninhoTrocador/main.i: LinkedList/ToninhoTrocador/main.c.i
-.PHONY : LinkedList/ToninhoTrocador/main.i
+apps/stack_digits_app.i: apps/stack_digits_app.c.i
+.PHONY : apps/stack_digits_app.i
 
 # target to preprocess a source file
-LinkedList/ToninhoTrocador/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.i
-.PHONY : LinkedList/ToninhoTrocador/main.c.i
+apps/stack_digits_app.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/apps/stack_digits_app.c.i
+.PHONY : apps/stack_digits_app.c.i
 
-LinkedList/ToninhoTrocador/main.s: LinkedList/ToninhoTrocador/main.c.s
-.PHONY : LinkedList/ToninhoTrocador/main.s
+apps/stack_digits_app.s: apps/stack_digits_app.c.s
+.PHONY : apps/stack_digits_app.s
 
 # target to generate assembly for a file
-LinkedList/ToninhoTrocador/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/LinkedList/ToninhoTrocador/main.c.s
-.PHONY : LinkedList/ToninhoTrocador/main.c.s
+apps/stack_digits_app.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/apps/stack_digits_app.c.s
+.PHONY : apps/stack_digits_app.c.s
 
-LinkedList/main.obj: LinkedList/main.c.obj
-.PHONY : LinkedList/main.obj
+apps/stack_stack_app.obj: apps/stack_stack_app.c.obj
+.PHONY : apps/stack_stack_app.obj
 
 # target to build an object file
-LinkedList/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/LinkedList/main.c.obj
-.PHONY : LinkedList/main.c.obj
+apps/stack_stack_app.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStack.dir\build.make CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.obj
+.PHONY : apps/stack_stack_app.c.obj
 
-LinkedList/main.i: LinkedList/main.c.i
-.PHONY : LinkedList/main.i
+apps/stack_stack_app.i: apps/stack_stack_app.c.i
+.PHONY : apps/stack_stack_app.i
 
 # target to preprocess a source file
-LinkedList/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/LinkedList/main.c.i
-.PHONY : LinkedList/main.c.i
+apps/stack_stack_app.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStack.dir\build.make CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.i
+.PHONY : apps/stack_stack_app.c.i
 
-LinkedList/main.s: LinkedList/main.c.s
-.PHONY : LinkedList/main.s
+apps/stack_stack_app.s: apps/stack_stack_app.c.s
+.PHONY : apps/stack_stack_app.s
 
 # target to generate assembly for a file
-LinkedList/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/LinkedList/main.c.s
-.PHONY : LinkedList/main.c.s
+apps/stack_stack_app.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStack.dir\build.make CMakeFiles/StaticStack.dir/apps/stack_stack_app.c.s
+.PHONY : apps/stack_stack_app.c.s
 
-Stack/Stack.obj: Stack/Stack.c.obj
-.PHONY : Stack/Stack.obj
+apps/toninho_trocador.obj: apps/toninho_trocador.c.obj
+.PHONY : apps/toninho_trocador.obj
 
 # target to build an object file
-Stack/Stack.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/Stack/Stack.c.obj
-.PHONY : Stack/Stack.c.obj
+apps/toninho_trocador.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.obj
+.PHONY : apps/toninho_trocador.c.obj
 
-Stack/Stack.i: Stack/Stack.c.i
-.PHONY : Stack/Stack.i
-
-# target to preprocess a source file
-Stack/Stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/Stack/Stack.c.i
-.PHONY : Stack/Stack.c.i
-
-Stack/Stack.s: Stack/Stack.c.s
-.PHONY : Stack/Stack.s
-
-# target to generate assembly for a file
-Stack/Stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/Stack/Stack.c.s
-.PHONY : Stack/Stack.c.s
-
-Stack/main.obj: Stack/main.c.obj
-.PHONY : Stack/main.obj
-
-# target to build an object file
-Stack/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/Stack/main.c.obj
-.PHONY : Stack/main.c.obj
-
-Stack/main.i: Stack/main.c.i
-.PHONY : Stack/main.i
+apps/toninho_trocador.i: apps/toninho_trocador.c.i
+.PHONY : apps/toninho_trocador.i
 
 # target to preprocess a source file
-Stack/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/Stack/main.c.i
-.PHONY : Stack/main.c.i
+apps/toninho_trocador.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.i
+.PHONY : apps/toninho_trocador.c.i
 
-Stack/main.s: Stack/main.c.s
-.PHONY : Stack/main.s
+apps/toninho_trocador.s: apps/toninho_trocador.c.s
+.PHONY : apps/toninho_trocador.s
 
 # target to generate assembly for a file
-Stack/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/Stack/main.c.s
-.PHONY : Stack/main.c.s
+apps/toninho_trocador.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocador.dir\build.make CMakeFiles/ToninhoTrocador.dir/apps/toninho_trocador.c.s
+.PHONY : apps/toninho_trocador.c.s
 
 main.obj: main.c.obj
 .PHONY : main.obj
@@ -457,6 +550,174 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithms.dir\build.make CMakeFiles/algorithms.dir/main.c.s
 .PHONY : main.c.s
 
+src/CircularLinkedList.obj: src/CircularLinkedList.c.obj
+.PHONY : src/CircularLinkedList.obj
+
+# target to build an object file
+src/CircularLinkedList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedListLib.dir\build.make CMakeFiles/CircularLinkedListLib.dir/src/CircularLinkedList.c.obj
+.PHONY : src/CircularLinkedList.c.obj
+
+src/CircularLinkedList.i: src/CircularLinkedList.c.i
+.PHONY : src/CircularLinkedList.i
+
+# target to preprocess a source file
+src/CircularLinkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedListLib.dir\build.make CMakeFiles/CircularLinkedListLib.dir/src/CircularLinkedList.c.i
+.PHONY : src/CircularLinkedList.c.i
+
+src/CircularLinkedList.s: src/CircularLinkedList.c.s
+.PHONY : src/CircularLinkedList.s
+
+# target to generate assembly for a file
+src/CircularLinkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CircularLinkedListLib.dir\build.make CMakeFiles/CircularLinkedListLib.dir/src/CircularLinkedList.c.s
+.PHONY : src/CircularLinkedList.c.s
+
+src/DoublyLinkedList.obj: src/DoublyLinkedList.c.obj
+.PHONY : src/DoublyLinkedList.obj
+
+# target to build an object file
+src/DoublyLinkedList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedListLib.dir\build.make CMakeFiles/DoublyLinkedListLib.dir/src/DoublyLinkedList.c.obj
+.PHONY : src/DoublyLinkedList.c.obj
+
+src/DoublyLinkedList.i: src/DoublyLinkedList.c.i
+.PHONY : src/DoublyLinkedList.i
+
+# target to preprocess a source file
+src/DoublyLinkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedListLib.dir\build.make CMakeFiles/DoublyLinkedListLib.dir/src/DoublyLinkedList.c.i
+.PHONY : src/DoublyLinkedList.c.i
+
+src/DoublyLinkedList.s: src/DoublyLinkedList.c.s
+.PHONY : src/DoublyLinkedList.s
+
+# target to generate assembly for a file
+src/DoublyLinkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoublyLinkedListLib.dir\build.make CMakeFiles/DoublyLinkedListLib.dir/src/DoublyLinkedList.c.s
+.PHONY : src/DoublyLinkedList.c.s
+
+src/LinkedList.obj: src/LinkedList.c.obj
+.PHONY : src/LinkedList.obj
+
+# target to build an object file
+src/LinkedList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocadorLib.dir\build.make CMakeFiles/ToninhoTrocadorLib.dir/src/LinkedList.c.obj
+.PHONY : src/LinkedList.c.obj
+
+src/LinkedList.i: src/LinkedList.c.i
+.PHONY : src/LinkedList.i
+
+# target to preprocess a source file
+src/LinkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocadorLib.dir\build.make CMakeFiles/ToninhoTrocadorLib.dir/src/LinkedList.c.i
+.PHONY : src/LinkedList.c.i
+
+src/LinkedList.s: src/LinkedList.c.s
+.PHONY : src/LinkedList.s
+
+# target to generate assembly for a file
+src/LinkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToninhoTrocadorLib.dir\build.make CMakeFiles/ToninhoTrocadorLib.dir/src/LinkedList.c.s
+.PHONY : src/LinkedList.c.s
+
+src/Stack.obj: src/Stack.c.obj
+.PHONY : src/Stack.obj
+
+# target to build an object file
+src/Stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/src/Stack.c.obj
+.PHONY : src/Stack.c.obj
+
+src/Stack.i: src/Stack.c.i
+.PHONY : src/Stack.i
+
+# target to preprocess a source file
+src/Stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/src/Stack.c.i
+.PHONY : src/Stack.c.i
+
+src/Stack.s: src/Stack.c.s
+.PHONY : src/Stack.s
+
+# target to generate assembly for a file
+src/Stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Stack.dir\build.make CMakeFiles/Stack.dir/src/Stack.c.s
+.PHONY : src/Stack.c.s
+
+src/StackDigits.obj: src/StackDigits.c.obj
+.PHONY : src/StackDigits.obj
+
+# target to build an object file
+src/StackDigits.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/src/StackDigits.c.obj
+.PHONY : src/StackDigits.c.obj
+
+src/StackDigits.i: src/StackDigits.c.i
+.PHONY : src/StackDigits.i
+
+# target to preprocess a source file
+src/StackDigits.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/src/StackDigits.c.i
+.PHONY : src/StackDigits.c.i
+
+src/StackDigits.s: src/StackDigits.c.s
+.PHONY : src/StackDigits.s
+
+# target to generate assembly for a file
+src/StackDigits.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EDPILHA.dir\build.make CMakeFiles/EDPILHA.dir/src/StackDigits.c.s
+.PHONY : src/StackDigits.c.s
+
+src/TLinkedList.obj: src/TLinkedList.c.obj
+.PHONY : src/TLinkedList.obj
+
+# target to build an object file
+src/TLinkedList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListLib.dir\build.make CMakeFiles/LinkedListLib.dir/src/TLinkedList.c.obj
+.PHONY : src/TLinkedList.c.obj
+
+src/TLinkedList.i: src/TLinkedList.c.i
+.PHONY : src/TLinkedList.i
+
+# target to preprocess a source file
+src/TLinkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListLib.dir\build.make CMakeFiles/LinkedListLib.dir/src/TLinkedList.c.i
+.PHONY : src/TLinkedList.c.i
+
+src/TLinkedList.s: src/TLinkedList.c.s
+.PHONY : src/TLinkedList.s
+
+# target to generate assembly for a file
+src/TLinkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkedListLib.dir\build.make CMakeFiles/LinkedListLib.dir/src/TLinkedList.c.s
+.PHONY : src/TLinkedList.c.s
+
+src/static_stack.obj: src/static_stack.c.obj
+.PHONY : src/static_stack.obj
+
+# target to build an object file
+src/static_stack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStackLib.dir\build.make CMakeFiles/StaticStackLib.dir/src/static_stack.c.obj
+.PHONY : src/static_stack.c.obj
+
+src/static_stack.i: src/static_stack.c.i
+.PHONY : src/static_stack.i
+
+# target to preprocess a source file
+src/static_stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStackLib.dir\build.make CMakeFiles/StaticStackLib.dir/src/static_stack.c.i
+.PHONY : src/static_stack.c.i
+
+src/static_stack.s: src/static_stack.c.s
+.PHONY : src/static_stack.s
+
+# target to generate assembly for a file
+src/static_stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticStackLib.dir\build.make CMakeFiles/StaticStackLib.dir/src/static_stack.c.s
+.PHONY : src/static_stack.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -466,44 +727,71 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CircularLinkedList
+	@echo ... CircularLinkedListLib
 	@echo ... DoublyLinkedList
+	@echo ... DoublyLinkedListLib
+	@echo ... EDMundo
+	@echo ... EDPILHA
+	@echo ... Igualdade
 	@echo ... LinkedList
+	@echo ... LinkedListLib
 	@echo ... Stack
+	@echo ... StaticStack
+	@echo ... StaticStackLib
 	@echo ... ToninhoTrocador
+	@echo ... ToninhoTrocadorLib
 	@echo ... algorithms
-	@echo ... CircularLinkedList/CircularLinkedList.obj
-	@echo ... CircularLinkedList/CircularLinkedList.i
-	@echo ... CircularLinkedList/CircularLinkedList.s
-	@echo ... CircularLinkedList/main.obj
-	@echo ... CircularLinkedList/main.i
-	@echo ... CircularLinkedList/main.s
-	@echo ... DoublyLinkedList/DoublyLinkedList.obj
-	@echo ... DoublyLinkedList/DoublyLinkedList.i
-	@echo ... DoublyLinkedList/DoublyLinkedList.s
-	@echo ... DoublyLinkedList/main.obj
-	@echo ... DoublyLinkedList/main.i
-	@echo ... DoublyLinkedList/main.s
-	@echo ... LinkedList/LinkedList.obj
-	@echo ... LinkedList/LinkedList.i
-	@echo ... LinkedList/LinkedList.s
-	@echo ... LinkedList/ToninhoTrocador/LinkedList.obj
-	@echo ... LinkedList/ToninhoTrocador/LinkedList.i
-	@echo ... LinkedList/ToninhoTrocador/LinkedList.s
-	@echo ... LinkedList/ToninhoTrocador/main.obj
-	@echo ... LinkedList/ToninhoTrocador/main.i
-	@echo ... LinkedList/ToninhoTrocador/main.s
-	@echo ... LinkedList/main.obj
-	@echo ... LinkedList/main.i
-	@echo ... LinkedList/main.s
-	@echo ... Stack/Stack.obj
-	@echo ... Stack/Stack.i
-	@echo ... Stack/Stack.s
-	@echo ... Stack/main.obj
-	@echo ... Stack/main.i
-	@echo ... Stack/main.s
+	@echo ... apps/circular_linked_list.obj
+	@echo ... apps/circular_linked_list.i
+	@echo ... apps/circular_linked_list.s
+	@echo ... apps/doubly_linked_list.obj
+	@echo ... apps/doubly_linked_list.i
+	@echo ... apps/doubly_linked_list.s
+	@echo ... apps/ed_mundo.obj
+	@echo ... apps/ed_mundo.i
+	@echo ... apps/ed_mundo.s
+	@echo ... apps/igualdade.obj
+	@echo ... apps/igualdade.i
+	@echo ... apps/igualdade.s
+	@echo ... apps/linked_list.obj
+	@echo ... apps/linked_list.i
+	@echo ... apps/linked_list.s
+	@echo ... apps/stack_app.obj
+	@echo ... apps/stack_app.i
+	@echo ... apps/stack_app.s
+	@echo ... apps/stack_digits_app.obj
+	@echo ... apps/stack_digits_app.i
+	@echo ... apps/stack_digits_app.s
+	@echo ... apps/stack_stack_app.obj
+	@echo ... apps/stack_stack_app.i
+	@echo ... apps/stack_stack_app.s
+	@echo ... apps/toninho_trocador.obj
+	@echo ... apps/toninho_trocador.i
+	@echo ... apps/toninho_trocador.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/CircularLinkedList.obj
+	@echo ... src/CircularLinkedList.i
+	@echo ... src/CircularLinkedList.s
+	@echo ... src/DoublyLinkedList.obj
+	@echo ... src/DoublyLinkedList.i
+	@echo ... src/DoublyLinkedList.s
+	@echo ... src/LinkedList.obj
+	@echo ... src/LinkedList.i
+	@echo ... src/LinkedList.s
+	@echo ... src/Stack.obj
+	@echo ... src/Stack.i
+	@echo ... src/Stack.s
+	@echo ... src/StackDigits.obj
+	@echo ... src/StackDigits.i
+	@echo ... src/StackDigits.s
+	@echo ... src/TLinkedList.obj
+	@echo ... src/TLinkedList.i
+	@echo ... src/TLinkedList.s
+	@echo ... src/static_stack.obj
+	@echo ... src/static_stack.i
+	@echo ... src/static_stack.s
 .PHONY : help
 
 

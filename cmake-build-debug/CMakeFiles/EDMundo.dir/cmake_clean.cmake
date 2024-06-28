@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj"
-  "CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/CircularLinkedList.c.obj.d"
-  "CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj"
-  "CMakeFiles/EDMundo.dir/CircularLinkedList/EDMundo/main.c.obj.d"
+  "CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj"
+  "CMakeFiles/EDMundo.dir/apps/ed_mundo.c.obj.d"
   "EDMundo.exe"
   "EDMundo.exe.manifest"
   "EDMundo.pdb"
